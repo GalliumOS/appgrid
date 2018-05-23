@@ -1,3 +1,9 @@
+appgrid (0.295-galliumos0) bismuth; urgency=low
+
+  * Initial packaging for GalliumOS 3.0
+
+ -- reynhout <reynhout@galliumos.org>  Wed, 23 May 2018 04:23:46 +0000
+
 appgrid (0.295) bionic; urgency=low
 
   * add support for bionic
