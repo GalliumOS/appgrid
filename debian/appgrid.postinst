@@ -1,0 +1,47 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+# unfortunately there doesn't seem to be a cleaner way to do this
+if [ -f /etc/gnome/defaults.list ] ; then
+    sed -i '/application\/x-deb=/d' /etc/gnome/defaults.list
+    sed -i '/application\/x-debian-package=/d' /etc/gnome/defaults.list
+    sed -i '/x-scheme-handler\/apt=/d' /etc/gnome/defaults.list
+    echo 'application/x-deb=appgrid.desktop' >> /etc/gnome/defaults.list
+    echo 'application/x-debian-package=appgrid.desktop' >> /etc/gnome/defaults.list
+    echo 'x-scheme-handler/apt=appgrid.desktop' >> /etc/gnome/defaults.list
+fi
+
+# config files
+cp -f /usr/share/appgrid/data/99appgrid /etc/apt/apt.conf.d/99appgrid
+cp -f /usr/share/appgrid/data/appgrid /etc/cron.daily/appgrid
+cp -f /usr/share/appgrid/data/appgrid.conf /etc/init/appgrid.conf
+
+appgrid --rebuild-db
+
+# run daemon
+systemctl unmask appgrid.service >/dev/null || true
+systemctl enable appgrid.service >/dev/null || true
+if [ -d /run/systemd/system ]; then
+    systemctl restart appgrid.service >/dev/null || true
+else
+    service appgrid restart >/dev/null || true
+fi
+
+# add key for repo
+apt-key add - <<KEYDATA
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: SKS 1.1.4
+Comment: Hostname: keyserver.ubuntu.com
+
+mI0EUhpdoQEEAMLJsoPDM7WSi382Wm/pJbBiP5uxdeHnffaadz0P/g71/ktKytvGC/N1UZUJ
+WJ6AZlhdcbyhihMMTI6RDy0E5VwML9XF8v7OnJ+1YSjDhJQ+uTUYNbbkk3faACPomSDjpGSy
+S2657npvQzEUUFIuTQEUsZ9FGIXyQ4GPiOH5ZlpHABEBAAG0GUxhdW5jaHBhZCBQUEEgZm9y
+IGFwcGdyaWSIuAQTAQIAIgUCUhpdoQIbAwYLCQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQ
+JB/mlzt2X647SwP/dnBdB0JaP4tMvUXnd6oYyPoX8dEFKVVI9YKsDAbvyKHHyhg4Of/8RAWN
+ZD4jBut12ztXFfBA8XrQXoxKO0F/dOnfMavmUIYOedYKEMiQ2HDXwrXYrbUtZd9j7gmFjhzi
+JcJFfXNiZhvKOLCOfJc9TPM6piTkkblHdn5bx4Qzmro=
+=KA3V
+-----END PGP PUBLIC KEY BLOCK-----
+KEYDATA

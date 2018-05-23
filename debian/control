@@ -1,0 +1,40 @@
+Source: appgrid
+Section: utils
+Priority: optional
+Maintainer: pgg (appgrid) <pgg@appgrid.org>
+Build-Depends: debhelper,
+               python3,
+               python3-distutils-extra,
+Homepage: http://www.appgrid.org
+Standards-Version: 4.1.1
+
+Package: appgrid
+Architecture: all
+Depends: ${misc:Depends},
+         app-install-data,
+         gir1.2-gdkpixbuf-2.0,
+         gir1.2-glib-2.0,
+         gir1.2-gnomekeyring-1.0,
+         gir1.2-gtk-3.0,
+         gir1.2-pango-1.0,
+         gir1.2-soup-2.4,
+         iso-codes,
+         policykit-1-gnome,
+         python3 (>= 3.4),
+         python3-apt,
+         python3-aptdaemon,
+         python3-aptdaemon.gtk3widgets,
+         python3-cairo,
+         python3-dbus,
+         python3-defer,
+         python3-gi,
+         python3-gi-cairo,
+         python3-oauthlib,
+Description: Discover and install apps for Ubuntu
+ Discover and install apps for Ubuntu with App Grid:
+  - It's fast! Written from scratch, App Grid delivers stunning startup speed,
+    and swift reactions throughout.
+  - It's elegant! A clean and simple design makes App Grid a joy to use. No
+    confusion, no frustration.
+  - It's ready to go! Discover the best of Open Source in the Ubuntu archives.
+    Complete with ratings, reviews & screenshots.

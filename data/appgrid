@@ -1,0 +1,23 @@
+#!/bin/sh
+
+/usr/bin/appgrid --rebuild-db
+
+rm -f /etc/apt/sources.list.d/appgrid-*.list
+debline="deb http://ppa.launchpad.net/appgrid/stable/ubuntu bionic main"
+
+release=$(lsb_release -cs)
+if [ $release = "xenial" ] || [ $release = "artful" ] || [ $release = "bionic" ]; then
+    debline="deb http://ppa.launchpad.net/appgrid/stable/ubuntu "$release" main"
+fi
+
+echo $debline > /etc/apt/sources.list.d/appgrid-stable.list
+
+# unfortunately there doesn't seem to be a cleaner way to do this
+if [ -f /etc/gnome/defaults.list ] ; then
+    sed -i '/application\/x-deb=/d' /etc/gnome/defaults.list
+    sed -i '/application\/x-debian-package=/d' /etc/gnome/defaults.list
+    sed -i '/x-scheme-handler\/apt=/d' /etc/gnome/defaults.list
+    echo 'application/x-deb=appgrid.desktop' >> /etc/gnome/defaults.list
+    echo 'application/x-debian-package=appgrid.desktop' >> /etc/gnome/defaults.list
+    echo 'x-scheme-handler/apt=appgrid.desktop' >> /etc/gnome/defaults.list
+fi

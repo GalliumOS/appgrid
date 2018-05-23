@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+export PYBUILD_INSTALL_ARGS_python3=--install-lib=/usr/share/appgrid/
+
+%:
+	dh $@ --with=python3 --buildsystem=pybuild
+
+clean:
+	python3 setup.py clean -a
+	rm -rf tests test_everything.sh
+
+override_dh_installinit:
+
+override_dh_auto_install:
+	dh_auto_install
+	rm -r debian/appgrid/usr/share/appgrid/*.egg-info
+	py3clean .
+
+.PHONY: override_dh_auto_install

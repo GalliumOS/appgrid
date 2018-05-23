@@ -1,0 +1,465 @@
+# Croatian translation for appgrid
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the BSD license.
+# https://help.launchpad.net/Translations/LicensingFAQ
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: appgrid\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-09 16:06+0100\n"
+"PO-Revision-Date: 2014-05-30 17:00+0000\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"Language-Team: Croatian <hr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-12-11 05:58+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
+
+#: ../appdata/apps/aptapp.py:90 ../appdata/apps/sqliteapp.py:45
+msgid "Open Source"
+msgstr "Otvoreni kôd"
+
+#: ../appdata/apps/aptapp.py:92 ../appdata/apps/aptapp.py:94
+#: ../appdata/apps/sqliteapp.py:47 ../appdata/apps/sqliteapp.py:49
+msgid "Proprietary"
+msgstr "Vlasnička"
+
+#: ../appdata/apps/aptapp.py:95 ../appdata/apps/aptapp.py:122
+#: ../appdata/apps/debfileapp.py:117 ../appdata/apps/debfileapp.py:128
+#: ../appdata/apps/sqliteapp.py:50 ../appdata/apps/sqliteapp.py:71
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: ../appdata/apps/aptapp.py:113 ../appdata/apps/sqliteapp.py:62
+msgid "Ubuntu"
+msgstr "Ubuntu"
+
+#: ../appdata/apps/aptapp.py:117 ../appdata/apps/sqliteapp.py:66
+msgid "Canonical Partners"
+msgstr "Canonicalovi partneri"
+
+#: ../appdata/apps/aptapp.py:119 ../appdata/apps/sqliteapp.py:68
+msgid "Ubuntu Extras"
+msgstr "Ubuntu dodaci"
+
+#: ../appdata/apps/sqliteapp.py:64
+msgid "Canonical Store"
+msgstr "Canonical trgovina"
+
+#: ../appdata/categories.py:39
+msgid "Programming"
+msgstr "Programiranje"
+
+#: ../appdata/categories.py:39
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../appdata/categories.py:39
+msgid "Java"
+msgstr "Java"
+
+#: ../appdata/categories.py:39
+msgid "Libraries"
+msgstr "Biblioteke"
+
+#: ../appdata/categories.py:39
+msgid "Mono/CLI"
+msgstr "Mono/sučelje naredbenog retka"
+
+#: ../appdata/categories.py:40
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../appdata/categories.py:40
+msgid "Perl"
+msgstr "Perl"
+
+#: ../appdata/categories.py:40
+msgid "Python"
+msgstr "Python"
+
+#: ../appdata/categories.py:40
+msgid "Ruby"
+msgstr "Ruby"
+
+#: ../appdata/categories.py:41
+msgid "Web Development"
+msgstr "Web razvoj"
+
+#: ../appdata/categories.py:42
+msgid "Arts"
+msgstr "Umjetnost"
+
+#: ../appdata/categories.py:42
+msgid "Graphics"
+msgstr "Grafika"
+
+#: ../appdata/categories.py:42
+msgid "Languages"
+msgstr "Jezici"
+
+#: ../appdata/categories.py:42
+msgid "Multimedia"
+msgstr "Multimedija"
+
+#: ../appdata/categories.py:43
+msgid "Games"
+msgstr "Igre"
+
+#: ../appdata/categories.py:43
+msgid "Arcade"
+msgstr "Arkada"
+
+#: ../appdata/categories.py:43
+msgid "Board Games"
+msgstr "Društvene igre"
+
+#: ../appdata/categories.py:43
+msgid "Card Games"
+msgstr "Kartaške igre"
+
+#: ../appdata/categories.py:43
+msgid "Puzzles"
+msgstr "Slagalice"
+
+#: ../appdata/categories.py:44
+msgid "Role-Playing"
+msgstr ""
+
+#: ../appdata/categories.py:44
+msgid "Simulation"
+msgstr "Simulacija"
+
+#: ../appdata/categories.py:45
+msgid "Productivity"
+msgstr "Produktivnost"
+
+#: ../appdata/categories.py:45
+msgid "Communication"
+msgstr "Komunikacija"
+
+#: ../appdata/categories.py:45
+msgid "Text Editors"
+msgstr "Uređivači teksta"
+
+#: ../appdata/categories.py:46
+msgid "Web Browsers"
+msgstr "Web preglednici"
+
+#: ../appdata/categories.py:47
+msgid "Sciences"
+msgstr "Znanost"
+
+#: ../appdata/categories.py:47
+msgid "Natural Sciences"
+msgstr "Prirodne znanosti"
+
+#: ../appdata/categories.py:47
+msgid "Engineering"
+msgstr "Inžinjerstvo"
+
+#: ../appdata/categories.py:47
+msgid "Mathematics"
+msgstr "Matematika"
+
+#: ../appdata/categories.py:48
+msgid "System"
+msgstr "Sustav"
+
+#: ../appdata/categories.py:48
+msgid "Accessibility"
+msgstr "Pristupačnost"
+
+#: ../appdata/categories.py:48
+msgid "Appearance"
+msgstr "Izgled"
+
+#: ../appdata/categories.py:48
+msgid "Configuration"
+msgstr "Podešavanja"
+
+#: ../appdata/categories.py:49
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: ../appdata/categories.py:49
+msgid "Fonts"
+msgstr "Slova"
+
+#: ../appdata/categories.py:49
+msgid "Language Support"
+msgstr "Podrška za jezike"
+
+#: ../widgets/details.py:288
+msgid "Not found"
+msgstr ""
+
+#: ../widgets/details.py:301 ../widgets/magicbutton.py:122
+msgid "Install"
+msgstr "Instaliraj"
+
+#: ../widgets/details.py:303 ../widgets/magicbutton.py:160
+msgid "Remove"
+msgstr "Ukloni"
+
+#: ../widgets/details.py:305 ../widgets/magicbutton.py:147
+msgid "Launch"
+msgstr "Pokreni"
+
+#: ../widgets/details.py:307 ../widgets/magicbutton.py:162
+msgid "Installing…"
+msgstr "Instalacija…"
+
+#: ../widgets/details.py:309 ../widgets/magicbutton.py:164
+msgid "Launching…"
+msgstr "Pokretanje..."
+
+#: ../widgets/details.py:311 ../widgets/magicbutton.py:167
+msgid "Removing…"
+msgstr "Uklanjanje…"
+
+#: ../widgets/details.py:408
+msgid "Identifier"
+msgstr ""
+
+#: ../widgets/details.py:409 ../widgets/details.py:434
+#: ../widgets/details.py:440
+msgid "Addons"
+msgstr "Dodaci"
+
+#: ../widgets/details.py:410
+msgid "Version"
+msgstr "Inačica"
+
+#: ../widgets/details.py:411
+msgid "Origin"
+msgstr ""
+
+#: ../widgets/details.py:412
+msgid "License"
+msgstr "Licenca"
+
+#: ../widgets/details.py:413 ../widgets/details.py:434
+#: ../widgets/details.py:444
+msgid "Website"
+msgstr "Web stranica"
+
+#: ../widgets/details.py:490
+msgid "Reviews"
+msgstr ""
+
+#: ../widgets/details.py:512
+msgid "Write a Review"
+msgstr "Napiši recenziju"
+
+#: ../widgets/details.py:536
+msgid "delete review"
+msgstr "obriši recenziju"
+
+#: ../widgets/details.py:539
+msgid "flag review"
+msgstr ""
+
+#: ../widgets/details.py:667
+msgid "All languages"
+msgstr ""
+
+#: ../widgets/flag_review.py:20
+msgid "Why does this review require our attention:"
+msgstr "Zašto ova recenzija zahtijeva našu pozornost:"
+
+#: ../widgets/flag_review.py:31
+msgid "Reason"
+msgstr "Razlog"
+
+#: ../widgets/flag_review.py:45
+msgid "Reason required"
+msgstr "Potreban razlog"
+
+#: ../widgets/flag_review.py:47 ../widgets/write_review.py:70
+msgid "Submitting…"
+msgstr "Slanje..."
+
+#: ../widgets/flag_review.py:62 ../widgets/write_review.py:114
+msgid "Submit"
+msgstr "Pošalji"
+
+#: ../widgets/home.py:21
+msgid "Search…"
+msgstr "Pretraži…"
+
+#: ../widgets/home.py:79
+msgid "Category"
+msgstr "Kategorija"
+
+#: ../widgets/home.py:84
+msgid "State"
+msgstr ""
+
+#: ../widgets/home.py:85 ../widgets/home.py:406
+msgid "Installed"
+msgstr "Instalirano"
+
+#: ../widgets/home.py:87
+msgid "Sort"
+msgstr ""
+
+#: ../widgets/home.py:88
+msgid "Top Rated"
+msgstr "Najbolje ocijenjene"
+
+#: ../widgets/home.py:97
+#, python-format
+msgid "Pending (%d)"
+msgstr "Čekanje (%d)"
+
+#: ../widgets/home.py:299
+msgid "Sign in"
+msgstr ""
+
+#: ../widgets/home.py:460
+msgid "No results"
+msgstr ""
+
+#: ../widgets/home.py:536
+msgid "Make a donation"
+msgstr ""
+
+#: ../widgets/home.py:537
+msgid "Provide feedback"
+msgstr ""
+
+#: ../widgets/home.py:538
+msgid "Share our website"
+msgstr ""
+
+#: ../widgets/home.py:571
+msgid "My Purchases"
+msgstr ""
+
+#: ../widgets/home.py:572
+msgid "Sign out"
+msgstr ""
+
+#: ../widgets/login.py:20
+msgid "Sign in with your Ubuntu One account:"
+msgstr "Prijavite se s vašim Ubuntu One računom:"
+
+#. e-mail
+#: ../widgets/login.py:25
+msgid "E-mail address"
+msgstr "Adresa e-pošte"
+
+#. password
+#: ../widgets/login.py:29
+msgid "Password"
+msgstr "Lozinka"
+
+#: ../widgets/login.py:40
+msgid "Don't have an account?"
+msgstr "Još nemate račun?"
+
+#: ../widgets/login.py:41
+#, python-format
+msgid ""
+"An Ubuntu One account is free and gives access  to many Ubuntu-related "
+"services. You can create your account at %s."
+msgstr ""
+"Ubuntu One je besplatan i omogućuje vam pristup na više Ubuntu usluga. "
+"Možete napraviti svoj računa na %s."
+
+#: ../widgets/login.py:51
+msgid "Verification failed - please try again."
+msgstr "Provjera neuspjela - pokušajte ponovno."
+
+#: ../widgets/login.py:59
+msgid "Signing In…"
+msgstr "Prijavljivanje…"
+
+#: ../widgets/login.py:68 ../widgets/login.py:80
+msgid "Sign In"
+msgstr "Prijava"
+
+#: ../widgets/pending.py:62
+msgid "no pending apps"
+msgstr "nema aplikacija na čekanju"
+
+#: ../widgets/purchases.py:20
+msgid "My Purchases:"
+msgstr ""
+
+#: ../widgets/purchases.py:27
+msgid ""
+"To reinstall purchases you will need to use the Ubuntu Software Center."
+msgstr ""
+
+#: ../widgets/purchases.py:61
+msgid "no purchased apps"
+msgstr ""
+
+#: ../widgets/removal_warnings.py:23
+msgid "The following apps will be removed:"
+msgstr "Slijedeće aplikacije biti će uklonjene:"
+
+#: ../widgets/removal_warnings.py:70
+msgid "Continue"
+msgstr "Nastavi"
+
+#: ../widgets/tos.py:33
+msgid "Welcome to App Grid!"
+msgstr ""
+
+#: ../widgets/tos.py:34
+msgid "In order to use App Grid, you will need to agree to the following:"
+msgstr ""
+
+#: ../widgets/tos.py:50
+msgid "Please see /usr/share/appgrid/LEGAL for full details."
+msgstr ""
+
+#: ../widgets/tos.py:69
+msgid "I Agree"
+msgstr "Slažem se"
+
+#: ../widgets/tos.py:78
+msgid "I disagree"
+msgstr "Ne slažem se"
+
+#: ../widgets/transaction_failed.py:49
+msgid "OK"
+msgstr "U redu"
+
+#. summary
+#: ../widgets/write_review.py:23
+msgid "Summary"
+msgstr "Sažetak"
+
+#: ../widgets/write_review.py:37
+msgid "Review"
+msgstr "Recenzija"
+
+#: ../widgets/write_review.py:45
+msgid ""
+"By submitting your review, you give permission for your name and review to "
+"be published. Your review is not a bug report, nor a support request. "
+"Furthermore your review is respectable towards the developers and others."
+msgstr ""
+"Slanjem vaše recenzije, dajete pristanak da vaše ime i recenzija budu "
+"objavljeni. Vaša recenzija nije izvješće greške ili pitanje za podršku. "
+"Štoviše vaša recenzija je puna poštovanja od strane programera i ostalih "
+"korisnika."
+
+#: ../widgets/write_review.py:62
+msgid "Summary required"
+msgstr "Sažetak potreban"
+
+#: ../widgets/write_review.py:65
+msgid "Rating required"
+msgstr "Ocjena potrebna"
+
+#: ../widgets/write_review.py:68
+msgid "Review required"
+msgstr "Potrebna je recenzija"

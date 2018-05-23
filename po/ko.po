@@ -1,0 +1,463 @@
+# Korean translation for appgrid
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the BSD license.
+# https://help.launchpad.net/Translations/LicensingFAQ
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: appgrid\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-09 16:06+0100\n"
+"PO-Revision-Date: 2015-12-30 02:59+0000\n"
+"Last-Translator: Inasis <inasis@live.co.kr>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-12-31 05:35+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
+
+#: ../appdata/apps/aptapp.py:90 ../appdata/apps/sqliteapp.py:45
+msgid "Open Source"
+msgstr "오픈 소스"
+
+#: ../appdata/apps/aptapp.py:92 ../appdata/apps/aptapp.py:94
+#: ../appdata/apps/sqliteapp.py:47 ../appdata/apps/sqliteapp.py:49
+msgid "Proprietary"
+msgstr "독점 소유"
+
+#: ../appdata/apps/aptapp.py:95 ../appdata/apps/aptapp.py:122
+#: ../appdata/apps/debfileapp.py:117 ../appdata/apps/debfileapp.py:128
+#: ../appdata/apps/sqliteapp.py:50 ../appdata/apps/sqliteapp.py:71
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: ../appdata/apps/aptapp.py:113 ../appdata/apps/sqliteapp.py:62
+msgid "Ubuntu"
+msgstr "우분투"
+
+#: ../appdata/apps/aptapp.py:117 ../appdata/apps/sqliteapp.py:66
+msgid "Canonical Partners"
+msgstr "케노니컬 파트너"
+
+#: ../appdata/apps/aptapp.py:119 ../appdata/apps/sqliteapp.py:68
+msgid "Ubuntu Extras"
+msgstr "우분투 추가 기능"
+
+#: ../appdata/apps/sqliteapp.py:64
+msgid "Canonical Store"
+msgstr "캐노니컬 상점"
+
+#: ../appdata/categories.py:39
+msgid "Programming"
+msgstr "개발"
+
+#: ../appdata/categories.py:39
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../appdata/categories.py:39
+msgid "Java"
+msgstr "Java"
+
+#: ../appdata/categories.py:39
+msgid "Libraries"
+msgstr "라이브러리"
+
+#: ../appdata/categories.py:39
+msgid "Mono/CLI"
+msgstr "Mono/CLI"
+
+#: ../appdata/categories.py:40
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../appdata/categories.py:40
+msgid "Perl"
+msgstr "Perl"
+
+#: ../appdata/categories.py:40
+msgid "Python"
+msgstr "Python"
+
+#: ../appdata/categories.py:40
+msgid "Ruby"
+msgstr "Ruby"
+
+#: ../appdata/categories.py:41
+msgid "Web Development"
+msgstr "웹 개발"
+
+#: ../appdata/categories.py:42
+msgid "Arts"
+msgstr "예술"
+
+#: ../appdata/categories.py:42
+msgid "Graphics"
+msgstr "그래픽"
+
+#: ../appdata/categories.py:42
+msgid "Languages"
+msgstr "언어"
+
+#: ../appdata/categories.py:42
+msgid "Multimedia"
+msgstr "멀티미디어"
+
+#: ../appdata/categories.py:43
+msgid "Games"
+msgstr "게임"
+
+#: ../appdata/categories.py:43
+msgid "Arcade"
+msgstr "아케이드"
+
+#: ../appdata/categories.py:43
+msgid "Board Games"
+msgstr "보드 게임"
+
+#: ../appdata/categories.py:43
+msgid "Card Games"
+msgstr "카드 게임"
+
+#: ../appdata/categories.py:43
+msgid "Puzzles"
+msgstr "퍼즐"
+
+#: ../appdata/categories.py:44
+msgid "Role-Playing"
+msgstr "롤 플레이 게임"
+
+#: ../appdata/categories.py:44
+msgid "Simulation"
+msgstr "시뮬레이션"
+
+#: ../appdata/categories.py:45
+msgid "Productivity"
+msgstr "생산성"
+
+#: ../appdata/categories.py:45
+msgid "Communication"
+msgstr "의사 소통"
+
+#: ../appdata/categories.py:45
+msgid "Text Editors"
+msgstr "문서 편집기"
+
+#: ../appdata/categories.py:46
+msgid "Web Browsers"
+msgstr "웹 브라우저"
+
+#: ../appdata/categories.py:47
+msgid "Sciences"
+msgstr "과학"
+
+#: ../appdata/categories.py:47
+msgid "Natural Sciences"
+msgstr "자연 과학"
+
+#: ../appdata/categories.py:47
+msgid "Engineering"
+msgstr "공학"
+
+#: ../appdata/categories.py:47
+msgid "Mathematics"
+msgstr "수학"
+
+#: ../appdata/categories.py:48
+msgid "System"
+msgstr "시스템"
+
+#: ../appdata/categories.py:48
+msgid "Accessibility"
+msgstr "보조 기술"
+
+#: ../appdata/categories.py:48
+msgid "Appearance"
+msgstr "모양"
+
+#: ../appdata/categories.py:48
+msgid "Configuration"
+msgstr "구성"
+
+#: ../appdata/categories.py:49
+msgid "Documentation"
+msgstr "문서"
+
+#: ../appdata/categories.py:49
+msgid "Fonts"
+msgstr "글꼴"
+
+#: ../appdata/categories.py:49
+msgid "Language Support"
+msgstr "언어 지원"
+
+#: ../widgets/details.py:288
+msgid "Not found"
+msgstr "찾을 수 없음"
+
+#: ../widgets/details.py:301 ../widgets/magicbutton.py:122
+msgid "Install"
+msgstr "설치"
+
+#: ../widgets/details.py:303 ../widgets/magicbutton.py:160
+msgid "Remove"
+msgstr "제거"
+
+#: ../widgets/details.py:305 ../widgets/magicbutton.py:147
+msgid "Launch"
+msgstr "실행"
+
+#: ../widgets/details.py:307 ../widgets/magicbutton.py:162
+msgid "Installing…"
+msgstr "설치하고 있습니다"
+
+#: ../widgets/details.py:309 ../widgets/magicbutton.py:164
+msgid "Launching…"
+msgstr "시작하고 있습니다"
+
+#: ../widgets/details.py:311 ../widgets/magicbutton.py:167
+msgid "Removing…"
+msgstr "제거하고 있습니다"
+
+#: ../widgets/details.py:408
+msgid "Identifier"
+msgstr "식별자"
+
+#: ../widgets/details.py:409 ../widgets/details.py:434
+#: ../widgets/details.py:440
+msgid "Addons"
+msgstr "부가 기능"
+
+#: ../widgets/details.py:410
+msgid "Version"
+msgstr "판 번호:"
+
+#: ../widgets/details.py:411
+msgid "Origin"
+msgstr "최초"
+
+#: ../widgets/details.py:412
+msgid "License"
+msgstr "사용권"
+
+#: ../widgets/details.py:413 ../widgets/details.py:434
+#: ../widgets/details.py:444
+msgid "Website"
+msgstr "웹 사이트"
+
+#: ../widgets/details.py:490
+msgid "Reviews"
+msgstr "평가"
+
+#: ../widgets/details.py:512
+msgid "Write a Review"
+msgstr "평가 작성"
+
+#: ../widgets/details.py:536
+msgid "delete review"
+msgstr "평가 삭제"
+
+#: ../widgets/details.py:539
+msgid "flag review"
+msgstr "평가 검토"
+
+#: ../widgets/details.py:667
+msgid "All languages"
+msgstr "모든 언어"
+
+#: ../widgets/flag_review.py:20
+msgid "Why does this review require our attention:"
+msgstr "평가에 관심을 주어야 하는 이유:"
+
+#: ../widgets/flag_review.py:31
+msgid "Reason"
+msgstr "이유"
+
+#: ../widgets/flag_review.py:45
+msgid "Reason required"
+msgstr "이유를 필요로 합니다"
+
+#: ../widgets/flag_review.py:47 ../widgets/write_review.py:70
+msgid "Submitting…"
+msgstr "보내는 중..."
+
+#: ../widgets/flag_review.py:62 ../widgets/write_review.py:114
+msgid "Submit"
+msgstr "제출"
+
+#: ../widgets/home.py:21
+msgid "Search…"
+msgstr "검색하고 있습니다"
+
+#: ../widgets/home.py:79
+msgid "Category"
+msgstr "분류"
+
+#: ../widgets/home.py:84
+msgid "State"
+msgstr "시/도"
+
+#: ../widgets/home.py:85 ../widgets/home.py:406
+msgid "Installed"
+msgstr "설치함"
+
+#: ../widgets/home.py:87
+msgid "Sort"
+msgstr "정렬"
+
+#: ../widgets/home.py:88
+msgid "Top Rated"
+msgstr "최고 평점"
+
+#: ../widgets/home.py:97
+#, python-format
+msgid "Pending (%d)"
+msgstr "보류 중입니다 (%d)"
+
+#: ../widgets/home.py:299
+msgid "Sign in"
+msgstr "로그인"
+
+#: ../widgets/home.py:460
+msgid "No results"
+msgstr "결과가 없습니다"
+
+#: ../widgets/home.py:536
+msgid "Make a donation"
+msgstr "기부하기"
+
+#: ../widgets/home.py:537
+msgid "Provide feedback"
+msgstr "피드백 제공"
+
+#: ../widgets/home.py:538
+msgid "Share our website"
+msgstr "웹 사이트 공유"
+
+#: ../widgets/home.py:571
+msgid "My Purchases"
+msgstr "구입 목록"
+
+#: ../widgets/home.py:572
+msgid "Sign out"
+msgstr "로그아웃"
+
+#: ../widgets/login.py:20
+msgid "Sign in with your Ubuntu One account:"
+msgstr "Ubuntu One 계정으로 로그인하세요"
+
+#. e-mail
+#: ../widgets/login.py:25
+msgid "E-mail address"
+msgstr "전자 메일 주소"
+
+#. password
+#: ../widgets/login.py:29
+msgid "Password"
+msgstr "암호"
+
+#: ../widgets/login.py:40
+msgid "Don't have an account?"
+msgstr "계정이 없습니까?"
+
+#: ../widgets/login.py:41
+#, python-format
+msgid ""
+"An Ubuntu One account is free and gives access  to many Ubuntu-related "
+"services. You can create your account at %s."
+msgstr ""
+"Ubuntu One 계정은 무료로 제공되며, 많은 Ubuntu 관련 서비스를 제공합니다.  You can create your "
+"account at %s."
+
+#: ../widgets/login.py:51
+msgid "Verification failed - please try again."
+msgstr "인증 실패 - 다시 시도하십시오."
+
+#: ../widgets/login.py:59
+msgid "Signing In…"
+msgstr "로그인 하고 있습니다"
+
+#: ../widgets/login.py:68 ../widgets/login.py:80
+msgid "Sign In"
+msgstr "로그인"
+
+#: ../widgets/pending.py:62
+msgid "no pending apps"
+msgstr "대기 중인 패키지 없음"
+
+#: ../widgets/purchases.py:20
+msgid "My Purchases:"
+msgstr "구입 목록:"
+
+#: ../widgets/purchases.py:27
+msgid ""
+"To reinstall purchases you will need to use the Ubuntu Software Center."
+msgstr "Ubuntu 소프트웨어 선터를 이용하여 구입한 상품을 다시 설치하십시오."
+
+#: ../widgets/purchases.py:61
+msgid "no purchased apps"
+msgstr "구입한 패키지 없음"
+
+#: ../widgets/removal_warnings.py:23
+msgid "The following apps will be removed:"
+msgstr "다음의 선택한 패키지가 제거됩니다:"
+
+#: ../widgets/removal_warnings.py:70
+msgid "Continue"
+msgstr "계속 진행"
+
+#: ../widgets/tos.py:33
+msgid "Welcome to App Grid!"
+msgstr "App Grid 에 오신 것을 환영합니다!"
+
+#: ../widgets/tos.py:34
+msgid "In order to use App Grid, you will need to agree to the following:"
+msgstr "App Grid 를 이용하기 위해서는 아래의 사항에 동의해야 합니다:"
+
+#: ../widgets/tos.py:50
+msgid "Please see /usr/share/appgrid/LEGAL for full details."
+msgstr "전문은 /usr/share/appgrid/LEGAL 을 참조하여 주십시오."
+
+#: ../widgets/tos.py:69
+msgid "I Agree"
+msgstr "동의함"
+
+#: ../widgets/tos.py:78
+msgid "I disagree"
+msgstr "동의하지 않음"
+
+#: ../widgets/transaction_failed.py:49
+msgid "OK"
+msgstr "확인"
+
+#. summary
+#: ../widgets/write_review.py:23
+msgid "Summary"
+msgstr "요약"
+
+#: ../widgets/write_review.py:37
+msgid "Review"
+msgstr "평가"
+
+#: ../widgets/write_review.py:45
+msgid ""
+"By submitting your review, you give permission for your name and review to "
+"be published. Your review is not a bug report, nor a support request. "
+"Furthermore your review is respectable towards the developers and others."
+msgstr ""
+"평가를 제출하기 위하여 당신의 이름을 필요로 합니다. 이 평가는 버그 리포트가 아니며, 지원 요청도 아닙니다. 당신의 평가는 수많은 "
+"개발자들과 다른 이들에게 보내질 것입니다."
+
+#: ../widgets/write_review.py:62
+msgid "Summary required"
+msgstr "요약을 필요로 합니다"
+
+#: ../widgets/write_review.py:65
+msgid "Rating required"
+msgstr "점수를 필요로 합니다"
+
+#: ../widgets/write_review.py:68
+msgid "Review required"
+msgstr "평가를 필요로 합니다"

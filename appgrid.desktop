@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=PackageManager;System;Settings;
+Comment=Discover and install apps for Ubuntu
+Exec=/usr/share/appgrid/appgrid.py %u
+Icon=appgrid
+Keywords=App;AppGrid;Apps;AppStore;Buy;Browse;Center;Install;Installer;Purchase;Software;Store;Remove;Uninstall;
+MimeType=x-scheme-handler/apt;application/x-deb;application/x-debian-package;
+Name=App Grid
+StartupNotify=true
+Terminal=false
+Type=Application

@@ -1,0 +1,466 @@
+# Turkish translation for appgrid
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the BSD license.
+# https://help.launchpad.net/Translations/LicensingFAQ
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: appgrid\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-09 16:06+0100\n"
+"PO-Revision-Date: 2014-11-12 16:03+0000\n"
+"Last-Translator: Barış AKSU <turkasoft@yandex.com>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-12-11 05:58+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
+"Language: tr\n"
+
+#: ../appdata/apps/aptapp.py:90 ../appdata/apps/sqliteapp.py:45
+msgid "Open Source"
+msgstr "Açık kaynak"
+
+#: ../appdata/apps/aptapp.py:92 ../appdata/apps/aptapp.py:94
+#: ../appdata/apps/sqliteapp.py:47 ../appdata/apps/sqliteapp.py:49
+msgid "Proprietary"
+msgstr "Kapalı Kaynak"
+
+#: ../appdata/apps/aptapp.py:95 ../appdata/apps/aptapp.py:122
+#: ../appdata/apps/debfileapp.py:117 ../appdata/apps/debfileapp.py:128
+#: ../appdata/apps/sqliteapp.py:50 ../appdata/apps/sqliteapp.py:71
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: ../appdata/apps/aptapp.py:113 ../appdata/apps/sqliteapp.py:62
+msgid "Ubuntu"
+msgstr "Ubuntu"
+
+#: ../appdata/apps/aptapp.py:117 ../appdata/apps/sqliteapp.py:66
+msgid "Canonical Partners"
+msgstr "Canonical Ortakları"
+
+#: ../appdata/apps/aptapp.py:119 ../appdata/apps/sqliteapp.py:68
+msgid "Ubuntu Extras"
+msgstr "Ubuntu Ekstraları"
+
+#: ../appdata/apps/sqliteapp.py:64
+msgid "Canonical Store"
+msgstr "Canonical Mağazası"
+
+#: ../appdata/categories.py:39
+msgid "Programming"
+msgstr "Programlama"
+
+#: ../appdata/categories.py:39
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../appdata/categories.py:39
+msgid "Java"
+msgstr "Java"
+
+#: ../appdata/categories.py:39
+msgid "Libraries"
+msgstr "Kütüphaneler"
+
+#: ../appdata/categories.py:39
+msgid "Mono/CLI"
+msgstr "Mono/CLI"
+
+#: ../appdata/categories.py:40
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../appdata/categories.py:40
+msgid "Perl"
+msgstr "Perl"
+
+#: ../appdata/categories.py:40
+msgid "Python"
+msgstr "Python"
+
+#: ../appdata/categories.py:40
+msgid "Ruby"
+msgstr "Ruby"
+
+#: ../appdata/categories.py:41
+msgid "Web Development"
+msgstr "Web Programlama"
+
+#: ../appdata/categories.py:42
+msgid "Arts"
+msgstr "Sanatsal"
+
+#: ../appdata/categories.py:42
+msgid "Graphics"
+msgstr "Grafik Uygulamaları"
+
+#: ../appdata/categories.py:42
+msgid "Languages"
+msgstr "Diller"
+
+#: ../appdata/categories.py:42
+msgid "Multimedia"
+msgstr "Çoklu Ortam"
+
+#: ../appdata/categories.py:43
+msgid "Games"
+msgstr "Oyunlar"
+
+#: ../appdata/categories.py:43
+msgid "Arcade"
+msgstr "Macera"
+
+#: ../appdata/categories.py:43
+msgid "Board Games"
+msgstr "Masa Oyunları"
+
+#: ../appdata/categories.py:43
+msgid "Card Games"
+msgstr "Kart Oyunları"
+
+#: ../appdata/categories.py:43
+msgid "Puzzles"
+msgstr "Yapboz Oyunları"
+
+#: ../appdata/categories.py:44
+msgid "Role-Playing"
+msgstr "Rol Oyunları"
+
+#: ../appdata/categories.py:44
+msgid "Simulation"
+msgstr "Simulasyon"
+
+#: ../appdata/categories.py:45
+msgid "Productivity"
+msgstr "Verimlilik"
+
+#: ../appdata/categories.py:45
+msgid "Communication"
+msgstr "Topluluk"
+
+#: ../appdata/categories.py:45
+msgid "Text Editors"
+msgstr "Metin Düzenleyicileri"
+
+#: ../appdata/categories.py:46
+msgid "Web Browsers"
+msgstr "İnternet Tarayıcıları"
+
+#: ../appdata/categories.py:47
+msgid "Sciences"
+msgstr "Bilimler"
+
+#: ../appdata/categories.py:47
+msgid "Natural Sciences"
+msgstr "Doga Bilimleri"
+
+#: ../appdata/categories.py:47
+msgid "Engineering"
+msgstr "Mühendislik"
+
+#: ../appdata/categories.py:47
+msgid "Mathematics"
+msgstr "Matematik"
+
+#: ../appdata/categories.py:48
+msgid "System"
+msgstr "Sistem"
+
+#: ../appdata/categories.py:48
+msgid "Accessibility"
+msgstr "Erişebilirlik"
+
+#: ../appdata/categories.py:48
+msgid "Appearance"
+msgstr "Görünüm"
+
+#: ../appdata/categories.py:48
+msgid "Configuration"
+msgstr "Düzenleme"
+
+#: ../appdata/categories.py:49
+msgid "Documentation"
+msgstr "Belgelendirme"
+
+#: ../appdata/categories.py:49
+msgid "Fonts"
+msgstr "Yazı Tipleri"
+
+#: ../appdata/categories.py:49
+msgid "Language Support"
+msgstr "Dil desteği"
+
+#: ../widgets/details.py:288
+msgid "Not found"
+msgstr "Bulunamadı"
+
+#: ../widgets/details.py:301 ../widgets/magicbutton.py:122
+msgid "Install"
+msgstr "Kur"
+
+#: ../widgets/details.py:303 ../widgets/magicbutton.py:160
+msgid "Remove"
+msgstr "Sil"
+
+#: ../widgets/details.py:305 ../widgets/magicbutton.py:147
+msgid "Launch"
+msgstr "Çalıştır"
+
+#: ../widgets/details.py:307 ../widgets/magicbutton.py:162
+msgid "Installing…"
+msgstr "Kuruluyor…"
+
+#: ../widgets/details.py:309 ../widgets/magicbutton.py:164
+msgid "Launching…"
+msgstr "Çalıştırılıyor…"
+
+#: ../widgets/details.py:311 ../widgets/magicbutton.py:167
+msgid "Removing…"
+msgstr "Kaldırılıyor..."
+
+#: ../widgets/details.py:408
+msgid "Identifier"
+msgstr "Kimlik"
+
+#: ../widgets/details.py:409 ../widgets/details.py:434
+#: ../widgets/details.py:440
+msgid "Addons"
+msgstr "Eklentiler"
+
+#: ../widgets/details.py:410
+msgid "Version"
+msgstr "Sürüm"
+
+#: ../widgets/details.py:411
+msgid "Origin"
+msgstr "Köken"
+
+#: ../widgets/details.py:412
+msgid "License"
+msgstr "Lisans"
+
+#: ../widgets/details.py:413 ../widgets/details.py:434
+#: ../widgets/details.py:444
+msgid "Website"
+msgstr "İnternet Sitesi"
+
+#: ../widgets/details.py:490
+msgid "Reviews"
+msgstr "Yorumlar"
+
+#: ../widgets/details.py:512
+msgid "Write a Review"
+msgstr "Yorum Yaz"
+
+#: ../widgets/details.py:536
+msgid "delete review"
+msgstr "Yorumu sil"
+
+#: ../widgets/details.py:539
+msgid "flag review"
+msgstr "Yorumu işaretle"
+
+#: ../widgets/details.py:667
+msgid "All languages"
+msgstr "Tüm diller"
+
+#: ../widgets/flag_review.py:20
+msgid "Why does this review require our attention:"
+msgstr "Bu yorum neden bizim için önemli:"
+
+#: ../widgets/flag_review.py:31
+msgid "Reason"
+msgstr "Sebep"
+
+#: ../widgets/flag_review.py:45
+msgid "Reason required"
+msgstr "Sebep gerekli"
+
+#: ../widgets/flag_review.py:47 ../widgets/write_review.py:70
+msgid "Submitting…"
+msgstr "Gönderiliyor..."
+
+#: ../widgets/flag_review.py:62 ../widgets/write_review.py:114
+msgid "Submit"
+msgstr "Gönder"
+
+#: ../widgets/home.py:21
+msgid "Search…"
+msgstr "Ara…"
+
+#: ../widgets/home.py:79
+msgid "Category"
+msgstr "Kategori"
+
+#: ../widgets/home.py:84
+msgid "State"
+msgstr "Durum"
+
+#: ../widgets/home.py:85 ../widgets/home.py:406
+msgid "Installed"
+msgstr "Kuruldu"
+
+#: ../widgets/home.py:87
+msgid "Sort"
+msgstr "Sırala"
+
+#: ../widgets/home.py:88
+msgid "Top Rated"
+msgstr "En Çok Oylananlar"
+
+#: ../widgets/home.py:97
+#, python-format
+msgid "Pending (%d)"
+msgstr "Beklemede (%d)"
+
+#: ../widgets/home.py:299
+msgid "Sign in"
+msgstr "Oturum aç"
+
+#: ../widgets/home.py:460
+msgid "No results"
+msgstr "Sonuç Bulunamadı"
+
+#: ../widgets/home.py:536
+msgid "Make a donation"
+msgstr "Bir kahve ısmarlar mısın ?"
+
+#: ../widgets/home.py:537
+msgid "Provide feedback"
+msgstr "Geri bildirim yap"
+
+#: ../widgets/home.py:538
+msgid "Share our website"
+msgstr "İnternet sitemizi paylaşın"
+
+#: ../widgets/home.py:571
+msgid "My Purchases"
+msgstr ""
+
+#: ../widgets/home.py:572
+msgid "Sign out"
+msgstr "Çıkış yap"
+
+#: ../widgets/login.py:20
+msgid "Sign in with your Ubuntu One account:"
+msgstr "Ubuntu One hesabı ile giriş yap:"
+
+#. e-mail
+#: ../widgets/login.py:25
+msgid "E-mail address"
+msgstr "E-Posta adresi"
+
+#. password
+#: ../widgets/login.py:29
+msgid "Password"
+msgstr "Şifre"
+
+#: ../widgets/login.py:40
+msgid "Don't have an account?"
+msgstr "Hesabınız yok mu?"
+
+#: ../widgets/login.py:41
+#, python-format
+msgid ""
+"An Ubuntu One account is free and gives access  to many Ubuntu-related "
+"services. You can create your account at %s."
+msgstr ""
+"Bir Ubuntu One hesabı ücretsiz ve bir çok Ubuntu servisine erişmenizi "
+"sağlar. Hesabınızı buradan oluşturabilirsiniz %s."
+
+#: ../widgets/login.py:51
+msgid "Verification failed - please try again."
+msgstr "Doğruluma başarısız - lütfen tekrar deneyin."
+
+#: ../widgets/login.py:59
+msgid "Signing In…"
+msgstr "Oturum açılıyor…"
+
+#: ../widgets/login.py:68 ../widgets/login.py:80
+msgid "Sign In"
+msgstr "Oturum aç"
+
+#: ../widgets/pending.py:62
+msgid "no pending apps"
+msgstr "Bekleyen uygulama yok"
+
+#: ../widgets/purchases.py:20
+msgid "My Purchases:"
+msgstr ""
+
+#: ../widgets/purchases.py:27
+msgid ""
+"To reinstall purchases you will need to use the Ubuntu Software Center."
+msgstr ""
+
+#: ../widgets/purchases.py:61
+msgid "no purchased apps"
+msgstr ""
+
+#: ../widgets/removal_warnings.py:23
+msgid "The following apps will be removed:"
+msgstr "Belirtilen uygulamalar silinecek:"
+
+#: ../widgets/removal_warnings.py:70
+msgid "Continue"
+msgstr "Devam et"
+
+#: ../widgets/tos.py:33
+msgid "Welcome to App Grid!"
+msgstr "App Grid'e hoş geldiniz!"
+
+#: ../widgets/tos.py:34
+msgid "In order to use App Grid, you will need to agree to the following:"
+msgstr ""
+"AppGrid'i kullanabilmeniz için, aşağıdakileri kabul etmeniz gerekiyor:"
+
+#: ../widgets/tos.py:50
+msgid "Please see /usr/share/appgrid/LEGAL for full details."
+msgstr ""
+
+#: ../widgets/tos.py:69
+msgid "I Agree"
+msgstr "Kabul et"
+
+#: ../widgets/tos.py:78
+msgid "I disagree"
+msgstr "Reddet"
+
+#: ../widgets/transaction_failed.py:49
+msgid "OK"
+msgstr "Tamam"
+
+#. summary
+#: ../widgets/write_review.py:23
+msgid "Summary"
+msgstr "Özet"
+
+#: ../widgets/write_review.py:37
+msgid "Review"
+msgstr "Yorum"
+
+#: ../widgets/write_review.py:45
+msgid ""
+"By submitting your review, you give permission for your name and review to "
+"be published. Your review is not a bug report, nor a support request. "
+"Furthermore your review is respectable towards the developers and others."
+msgstr ""
+"Yorumunuzu göndermeniz ile, Adınız ve yayınlama için izin vermiş "
+"oluyorsunuz. Yapacağınız yorum ne hata ne de destek raporudur. Bu sadece "
+"sizin düşüncelerinizdir"
+
+#: ../widgets/write_review.py:62
+msgid "Summary required"
+msgstr "Özet girilmelidir"
+
+#: ../widgets/write_review.py:65
+msgid "Rating required"
+msgstr "Oy vermeniz gerekmetedir"
+
+#: ../widgets/write_review.py:68
+msgid "Review required"
+msgstr "Yorum gerekli"

@@ -1,0 +1,460 @@
+# Lithuanian translation for appgrid
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the BSD license.
+# https://help.launchpad.net/Translations/LicensingFAQ
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: appgrid\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-09 16:06+0100\n"
+"PO-Revision-Date: 2014-11-12 14:39+0000\n"
+"Last-Translator: Sigitas Kalinas <skalinas@gmail.com>\n"
+"Language-Team: Lithuanian <lt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-12-11 05:58+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
+
+#: ../appdata/apps/aptapp.py:90 ../appdata/apps/sqliteapp.py:45
+msgid "Open Source"
+msgstr "Atviro kodo"
+
+#: ../appdata/apps/aptapp.py:92 ../appdata/apps/aptapp.py:94
+#: ../appdata/apps/sqliteapp.py:47 ../appdata/apps/sqliteapp.py:49
+msgid "Proprietary"
+msgstr "Nuosavybinė"
+
+#: ../appdata/apps/aptapp.py:95 ../appdata/apps/aptapp.py:122
+#: ../appdata/apps/debfileapp.py:117 ../appdata/apps/debfileapp.py:128
+#: ../appdata/apps/sqliteapp.py:50 ../appdata/apps/sqliteapp.py:71
+msgid "Unknown"
+msgstr "Nežinoma"
+
+#: ../appdata/apps/aptapp.py:113 ../appdata/apps/sqliteapp.py:62
+msgid "Ubuntu"
+msgstr "Ubuntu"
+
+#: ../appdata/apps/aptapp.py:117 ../appdata/apps/sqliteapp.py:66
+msgid "Canonical Partners"
+msgstr "Canonical partneriai"
+
+#: ../appdata/apps/aptapp.py:119 ../appdata/apps/sqliteapp.py:68
+msgid "Ubuntu Extras"
+msgstr ""
+
+#: ../appdata/apps/sqliteapp.py:64
+msgid "Canonical Store"
+msgstr "Canonical parduotuvė"
+
+#: ../appdata/categories.py:39
+msgid "Programming"
+msgstr "Programavimas"
+
+#: ../appdata/categories.py:39
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../appdata/categories.py:39
+msgid "Java"
+msgstr "Java"
+
+#: ../appdata/categories.py:39
+msgid "Libraries"
+msgstr "Bibliotekos"
+
+#: ../appdata/categories.py:39
+msgid "Mono/CLI"
+msgstr "Mono/CLI"
+
+#: ../appdata/categories.py:40
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../appdata/categories.py:40
+msgid "Perl"
+msgstr "Perl"
+
+#: ../appdata/categories.py:40
+msgid "Python"
+msgstr "Python"
+
+#: ../appdata/categories.py:40
+msgid "Ruby"
+msgstr ""
+
+#: ../appdata/categories.py:41
+msgid "Web Development"
+msgstr "Interneto programų kūrimas"
+
+#: ../appdata/categories.py:42
+msgid "Arts"
+msgstr "Menai"
+
+#: ../appdata/categories.py:42
+msgid "Graphics"
+msgstr "Grafika"
+
+#: ../appdata/categories.py:42
+msgid "Languages"
+msgstr "Kalbos"
+
+#: ../appdata/categories.py:42
+msgid "Multimedia"
+msgstr "Multimedija"
+
+#: ../appdata/categories.py:43
+msgid "Games"
+msgstr "Žaidimai"
+
+#: ../appdata/categories.py:43
+msgid "Arcade"
+msgstr "Arkadiniai"
+
+#: ../appdata/categories.py:43
+msgid "Board Games"
+msgstr "Stalo žaidimai"
+
+#: ../appdata/categories.py:43
+msgid "Card Games"
+msgstr "Kortų žaidimai"
+
+#: ../appdata/categories.py:43
+msgid "Puzzles"
+msgstr "Galvosūkiai"
+
+#: ../appdata/categories.py:44
+msgid "Role-Playing"
+msgstr "Rolių"
+
+#: ../appdata/categories.py:44
+msgid "Simulation"
+msgstr "Simuliatoriai"
+
+#: ../appdata/categories.py:45
+msgid "Productivity"
+msgstr "Produktyvumas"
+
+#: ../appdata/categories.py:45
+msgid "Communication"
+msgstr "Bendravimas"
+
+#: ../appdata/categories.py:45
+msgid "Text Editors"
+msgstr "Teksto redaktoriai"
+
+#: ../appdata/categories.py:46
+msgid "Web Browsers"
+msgstr "Interneto naršyklės"
+
+#: ../appdata/categories.py:47
+msgid "Sciences"
+msgstr "Mokslai"
+
+#: ../appdata/categories.py:47
+msgid "Natural Sciences"
+msgstr "Gamtos mokslai"
+
+#: ../appdata/categories.py:47
+msgid "Engineering"
+msgstr "Inžinerija"
+
+#: ../appdata/categories.py:47
+msgid "Mathematics"
+msgstr "Matematika"
+
+#: ../appdata/categories.py:48
+msgid "System"
+msgstr "Sistema"
+
+#: ../appdata/categories.py:48
+msgid "Accessibility"
+msgstr "Prieinamumas"
+
+#: ../appdata/categories.py:48
+msgid "Appearance"
+msgstr "Išvaizda"
+
+#: ../appdata/categories.py:48
+msgid "Configuration"
+msgstr "Konfigūravimas"
+
+#: ../appdata/categories.py:49
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: ../appdata/categories.py:49
+msgid "Fonts"
+msgstr "Šriftai"
+
+#: ../appdata/categories.py:49
+msgid "Language Support"
+msgstr "Kalbos priežiūra"
+
+#: ../widgets/details.py:288
+msgid "Not found"
+msgstr "Nerasta"
+
+#: ../widgets/details.py:301 ../widgets/magicbutton.py:122
+msgid "Install"
+msgstr "Įdiegti"
+
+#: ../widgets/details.py:303 ../widgets/magicbutton.py:160
+msgid "Remove"
+msgstr "Pašalinti"
+
+#: ../widgets/details.py:305 ../widgets/magicbutton.py:147
+msgid "Launch"
+msgstr "Paleisti"
+
+#: ../widgets/details.py:307 ../widgets/magicbutton.py:162
+msgid "Installing…"
+msgstr "Įdiegiama..."
+
+#: ../widgets/details.py:309 ../widgets/magicbutton.py:164
+msgid "Launching…"
+msgstr "Paleidžiama..."
+
+#: ../widgets/details.py:311 ../widgets/magicbutton.py:167
+msgid "Removing…"
+msgstr "Šalinama..."
+
+#: ../widgets/details.py:408
+msgid "Identifier"
+msgstr "Identifikatorius"
+
+#: ../widgets/details.py:409 ../widgets/details.py:434
+#: ../widgets/details.py:440
+msgid "Addons"
+msgstr "Papildiniai"
+
+#: ../widgets/details.py:410
+msgid "Version"
+msgstr "Versija"
+
+#: ../widgets/details.py:411
+msgid "Origin"
+msgstr "Šaltinis"
+
+#: ../widgets/details.py:412
+msgid "License"
+msgstr "Licencija"
+
+#: ../widgets/details.py:413 ../widgets/details.py:434
+#: ../widgets/details.py:444
+msgid "Website"
+msgstr "Interneto svetainė"
+
+#: ../widgets/details.py:490
+msgid "Reviews"
+msgstr "Apžvalgos"
+
+#: ../widgets/details.py:512
+msgid "Write a Review"
+msgstr "Rašyti apžvalgą"
+
+#: ../widgets/details.py:536
+msgid "delete review"
+msgstr "Pašalinti apžvalgą"
+
+#: ../widgets/details.py:539
+msgid "flag review"
+msgstr "pranešti apie netinkamą apžvalgą"
+
+#: ../widgets/details.py:667
+msgid "All languages"
+msgstr "Visos kalbos"
+
+#: ../widgets/flag_review.py:20
+msgid "Why does this review require our attention:"
+msgstr "Kodėl į šią apžvalgą reikia atkreipti dėmesį:"
+
+#: ../widgets/flag_review.py:31
+msgid "Reason"
+msgstr "Priežastis"
+
+#: ../widgets/flag_review.py:45
+msgid "Reason required"
+msgstr ""
+
+#: ../widgets/flag_review.py:47 ../widgets/write_review.py:70
+msgid "Submitting…"
+msgstr "Siunčiama..."
+
+#: ../widgets/flag_review.py:62 ../widgets/write_review.py:114
+msgid "Submit"
+msgstr "Siųsti"
+
+#: ../widgets/home.py:21
+msgid "Search…"
+msgstr "Ieškoti..."
+
+#: ../widgets/home.py:79
+msgid "Category"
+msgstr "Kategorija"
+
+#: ../widgets/home.py:84
+msgid "State"
+msgstr "Būsena"
+
+#: ../widgets/home.py:85 ../widgets/home.py:406
+msgid "Installed"
+msgstr "Įdiegta"
+
+#: ../widgets/home.py:87
+msgid "Sort"
+msgstr "Rikiavimas"
+
+#: ../widgets/home.py:88
+msgid "Top Rated"
+msgstr "Geriausiai įvertinta"
+
+#: ../widgets/home.py:97
+#, python-format
+msgid "Pending (%d)"
+msgstr "Laukiama (%d)."
+
+#: ../widgets/home.py:299
+msgid "Sign in"
+msgstr "Prisijungti"
+
+#: ../widgets/home.py:460
+msgid "No results"
+msgstr "Rezultatų nerasta"
+
+#: ../widgets/home.py:536
+msgid "Make a donation"
+msgstr "Paaukoti"
+
+#: ../widgets/home.py:537
+msgid "Provide feedback"
+msgstr "Nusiųsti atsiliepimą"
+
+#: ../widgets/home.py:538
+msgid "Share our website"
+msgstr "Dalintis mūsų svetaine"
+
+#: ../widgets/home.py:571
+msgid "My Purchases"
+msgstr "Mano pirkiniai"
+
+#: ../widgets/home.py:572
+msgid "Sign out"
+msgstr "Atsijungti"
+
+#: ../widgets/login.py:20
+msgid "Sign in with your Ubuntu One account:"
+msgstr "Prisijungti su savo Ubuntu One paskyra:"
+
+#. e-mail
+#: ../widgets/login.py:25
+msgid "E-mail address"
+msgstr "El. pašto adresas"
+
+#. password
+#: ../widgets/login.py:29
+msgid "Password"
+msgstr "Slaptažodis"
+
+#: ../widgets/login.py:40
+msgid "Don't have an account?"
+msgstr "Neturite paskyros?"
+
+#: ../widgets/login.py:41
+#, python-format
+msgid ""
+"An Ubuntu One account is free and gives access  to many Ubuntu-related "
+"services. You can create your account at %s."
+msgstr ""
+"Ubuntu One paskyra nemokamai suteikia prieigą prie daugumos Ubuntu paslaugų. "
+"Galite susikurti savo paskyrą %s."
+
+#: ../widgets/login.py:51
+msgid "Verification failed - please try again."
+msgstr "Jūsų bandymas nustatyti tapatybę nepavyko - bandykite dar kartą."
+
+#: ../widgets/login.py:59
+msgid "Signing In…"
+msgstr "Jungiamasi..."
+
+#: ../widgets/login.py:68 ../widgets/login.py:80
+msgid "Sign In"
+msgstr "Prisijungti"
+
+#: ../widgets/pending.py:62
+msgid "no pending apps"
+msgstr "nėra laukiančių įdiegti, pašalinti ar pakartotinai įdiegti programų"
+
+#: ../widgets/purchases.py:20
+msgid "My Purchases:"
+msgstr ""
+
+#: ../widgets/purchases.py:27
+msgid ""
+"To reinstall purchases you will need to use the Ubuntu Software Center."
+msgstr ""
+
+#: ../widgets/purchases.py:61
+msgid "no purchased apps"
+msgstr ""
+
+#: ../widgets/removal_warnings.py:23
+msgid "The following apps will be removed:"
+msgstr "Šios programos bus pašalintos:"
+
+#: ../widgets/removal_warnings.py:70
+msgid "Continue"
+msgstr "Tęsti"
+
+#: ../widgets/tos.py:33
+msgid "Welcome to App Grid!"
+msgstr "Sveikina Programų tinklelis"
+
+#: ../widgets/tos.py:34
+msgid "In order to use App Grid, you will need to agree to the following:"
+msgstr "Norėdami naudotis Programų tinkleliu, sutikite su šiuo tekstu:"
+
+#: ../widgets/tos.py:50
+msgid "Please see /usr/share/appgrid/LEGAL for full details."
+msgstr ""
+
+#: ../widgets/tos.py:69
+msgid "I Agree"
+msgstr "Sutinku"
+
+#: ../widgets/tos.py:78
+msgid "I disagree"
+msgstr "Nesutinku"
+
+#: ../widgets/transaction_failed.py:49
+msgid "OK"
+msgstr "Gerai"
+
+#. summary
+#: ../widgets/write_review.py:23
+msgid "Summary"
+msgstr "Santrauka"
+
+#: ../widgets/write_review.py:37
+msgid "Review"
+msgstr "Apžvalga"
+
+#: ../widgets/write_review.py:45
+msgid ""
+"By submitting your review, you give permission for your name and review to "
+"be published. Your review is not a bug report, nor a support request. "
+"Furthermore your review is respectable towards the developers and others."
+msgstr ""
+
+#: ../widgets/write_review.py:62
+msgid "Summary required"
+msgstr ""
+
+#: ../widgets/write_review.py:65
+msgid "Rating required"
+msgstr ""
+
+#: ../widgets/write_review.py:68
+msgid "Review required"
+msgstr ""

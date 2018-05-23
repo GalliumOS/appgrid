@@ -1,0 +1,73 @@
+@define-color orange #DD4814;
+@define-color coolgrey #333333;
+@define-color warmgrey #AEA79F;
+
+GtkEventBox {
+    background-color: @transparent;
+}
+
+GtkOverlay {
+    /*background-color: @transparent;*/
+}
+
+.transoverlay {
+    background-color: @transparent;
+}
+
+GtkTreeView {
+    background-color: white;
+}
+
+GtkScrolledWindow {
+    background-color: @transparent;
+}
+
+GtkViewport {
+    background-color: @transparent;
+    border-width: 0;
+    padding: 0;
+}
+
+GtkWindow {
+    background-color: white;
+    color: #3C3C3C;
+}
+
+.sherlock {
+    border-image: none;
+    border-radius: 0;
+    background-image: none;
+    background-color: alpha(white, 0.2);
+    color: @white;
+    font-family: Ubuntu;
+    font-size: large;
+    font-weight: 100;
+    border-width: 0px;
+    border-color: white;
+}
+
+#sherlockishome {
+    border-width: 1px;
+}
+
+.actionbutton {
+    background-image: none;
+    border-width: 0;
+    border-image: none;
+    border-radius: 5px;
+    text-shadow: none;
+    background-color: alpha(@orange, 0.8);
+    color: @white;
+}
+
+.whitecolor {
+    color: white;
+}
+
+.orangecolor {
+    color: orange;
+}
+
+.whitebg {
+    background-color: white;
+}

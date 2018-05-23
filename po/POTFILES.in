@@ -1,0 +1,15 @@
+[encoding: UTF-8]
+appdata/apps/aptapp.py
+appdata/apps/debfileapp.py
+appdata/apps/sqliteapp.py
+appdata/categories.py
+widgets/details.py
+widgets/flag_review.py
+widgets/home.py
+widgets/login.py
+widgets/magicbutton.py
+widgets/pending.py
+widgets/removal_warnings.py
+widgets/tos.py
+widgets/transaction_failed.py
+widgets/write_review.py

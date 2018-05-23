@@ -1,0 +1,499 @@
+appgrid (0.295) bionic; urgency=low
+
+  * add support for bionic
+  * bump standards-version to 4.1.1
+  * bump debhelper compat level to 9
+  * remove support for yakkety and zesty
+  * try a bit harder to work around ppa being disabled on dist-upgrades
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Sun, 11 Feb 2018 10:48:54 +0100 
+
+appgrid (0.290) zesty; urgency=low
+
+  * remove purchases view
+  * new year
+  * pass zesty pep8
+  * update tests for zesty
+  * add support for artful
+  * fix server urls for reviews API - changes to the server are causing issues
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Fri, 23 Jun 2017 20:15:46 +0200 
+
+appgrid (0.284) zesty; urgency=low
+
+  * no need to duplicate font settings in widgets/home.py
+  * scrap "engine: none;", triggers warning, not needed anymore
+  * fix crash in startup on zesty caused by gtk css changes
+    rephrase font css so it works in xenial, yakkety and zesty
+  * bump standards version to 3.9.8
+  * add support for zesty
+  * fix broken filtering in search results
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Mon, 06 Feb 2017 12:28:30 +0100 
+
+appgrid (0.278) xenial; urgency=low
+
+  * always use the system install of python3 (LP: #1609747)
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Mon, 08 Aug 2016 13:04:09 +0200 
+
+appgrid (0.277) xenial; urgency=low
+
+  * put disclaimer in scrolledwindow to make tos dialog usable with larger
+    font sizes (LP: #1536779)
+  * fix (FileNotFoundError) helpers.py and get_response_from_sm
+    this occurs when Downloads dir has been deleted
+    error: 5fb9d6d0c587a7d01e981385c5304f0706635985
+    error: 55e62dd9bac974b43fb039794592ab97c86c92b4
+  * don't fail to install when in captive portal
+    error: ca2258cffc163591c3b2446de6c46da06eea7263
+  * upgrade apt urls to their multiarch equivs for things like steam
+    error: 50304934e98edd0043ca91d8f5f9886ef5fce578
+    error: 743e2117623438c5009f4b2794ee294070cc6a48
+    error: 5424ecbb481ce38e54ebf2b53a50feb1fd36f5dd
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Wed, 03 Aug 2016 11:23:44 +0200 
+
+appgrid (0.272) xenial; urgency=low
+
+  * remove transitional code from widgets/tos.py
+  * update pot file
+  * add support for yakkety
+  * retire support for trusty (xenial is a newer LTS)
+  * retire support for vivid, wily (EOL)
+  * use gi.require_version to stop warnings on xenial
+  * update tests for xenial
+  * reimport translations (80% or more translated)
+    - new languages: Czech, French, Galician, Croatian, Korean,
+      Norwegian Bokmal, Portuguese (much thanks to all translators!)
+  * bump standards version
+  * don't ship pycache dirs (makes deb file smaller again too :) )
+  * get screenshots from debian.net as screenshots.ubuntu.com is broken
+  * implement support for 2fa for Ubuntu SSO
+  * more accurate error messages for Ubuntu SSO in general
+  * update copyright years
+  * screenshots server has stopped returning 404, so catch fake 404's instead
+  * grabbing list of screenshots on details was blocking, make async
+  * remove dep on app-install-data-partner as no longer contains desktop files
+  * override inconsistent screenshot urls too
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Tue, 02 Aug 2016 10:19:44 +0200 
+
+appgrid (0.257) wily; urgency=low
+
+  * add support for xenial
+  * for some reason appgrid segfaults in Gdk.pixbuf_get_from_window() in
+    xenial - avoid this
+  * don't react to the same click twice in the details view
+  * fix (AttributeError) signout
+    error: fda8465d9031a13b343463209f15f8ed79cbf395
+  * fix (GLib.Error) draw_icon
+    the 'unknown' icon isn't available in a number of icon themes, hence
+    avoid using it
+    error: c2ded98c07fbfec065b3065c51060b63327ecc1f
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Thu, 26 Nov 2015 13:27:49 +0100 
+
+appgrid (0.252) wily; urgency=low
+
+  * "All the doors in this spaceship have a cheerful
+     and sunny disposition. It is their pleasure
+     to open for you [...] with the knowledge
+     of a job well done." -- Douglas Adams
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Wed, 26 Aug 2015 17:13:35 +0200 
+
+appgrid (0.251) wily; urgency=low
+
+  * fix (Dependency is not satisfiable) do_commit
+    don't crash when simulate triggers a transaction-failed
+    error: 1a57aebec668268ebe250abb85c8d468fff06565
+  * fix (ValueError) get_screenshots
+    don't crash on empty json file
+    error: 653fb78c66004809e987388b8d4909afe979755f
+  * deal with changes in filename added by add-apt-repository
+  * fix (TypeError) on_launch
+    check if desktop file has exec before trying to launch
+    should solve ?the majority? of:
+    error: 5ab745b13e2fbb488f452a147adb1768300b8f6f
+  * generate tmp db with a random path such that if multiple instances of
+    rebuild-db are being run they don't interfere with each other and cause
+    the db be be corrupt
+    should solve a fair amount of:
+    error: d3eca20cdd9f5b44386c9b937c48eaed1e79d06f
+    error: ba9079281caf3e084301bff19f820ec2cdbb660d
+  * KNOWN ISSUE: in wily App Grid does not display any descriptions..
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Wed, 26 Aug 2015 11:32:01 +0200 
+
+appgrid (0.246) wily; urgency=low
+
+  * update copyright years
+  * remove stray __future__ import
+  * remove support for utopic (EOL)
+  * add support for wily
+  * use FORCE_SIZE on Gtk.IconTheme.load_icon
+  * don't index apps from the store
+  * remove indexer for apps from store
+  * don't show buy button on details screen
+  * remove store support from magicbutton
+  * remove license key monitor
+  * don't query for price or thumbnail in search
+  * remove mentions of installing from the store
+  * remove unused app properties
+  * new database version
+  * remove 'my purchases' menu
+  * update tests
+  * remove dependency on webkit
+  * remove unused code from get_clients
+  * remove support for X-Ubuntu-Software-Center-Name - virtually unused
+  * use soup.Session in helpers rather than SessionSync and SessionAsync
+  * remove unused code from accountmanager.py
+  * rewrite accountmanager to remove dependency on ubuntu-sso-client and
+    instead use the v2 sso api and gnome-keyring directly
+  * freshen up the tiles on the home screen
+  * simple 'My Purchases' view that points to Ubuntu Software Center
+  * remove unused dependency on python3-distro-info
+  * remove publications category as it's always empty
+  * use aptdaemon's trans.simulate() to calculate pkgs which will be removed
+    instead of calculating this by hand
+  * update for latest pep8
+  * be a little more robust for race condition in keyring reading
+  * remove unused header code in home view
+  * remove unused 'loading' widget
+  * KNOWN ISSUE: in wily App Grid does not display any descriptions..
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Sat, 22 Aug 2015 09:55:36 +0200 
+
+appgrid (0.215) vivid; urgency=low
+
+  * bump standards version to 3.9.6
+  * add systemd unit
+  * override dh_installinit as we handle things manually
+  * unmask/enable/start/stop systemd service by hand in postinst,prerm
+    we can't use dh-systemd as it introduces dependencies which can't
+    be met in trusty (which we still support)
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Sun, 08 Mar 2015 13:13:19 +0100 
+
+appgrid (0.213) utopic; urgency=low
+
+  * add key directly from keydata rather than via keyserver
+    this should be much more robust
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Sat, 15 Nov 2014 14:00:52 +0100 
+
+appgrid (0.212) utopic; urgency=low
+
+  * add preliminary support for vivid
+  * update to current de.po
+  * update to current es.po
+  * update to current it.po
+  * update to current ja.po
+  * update to current nl.po
+  * update to current pl.po
+  * update to current pt_br.po
+  * update to current tr.po
+  * update to current uk.po
+  * add lt.po (much thanks!)
+  * add ru.po (much thanks!)
+  * don't crash if db generation fails when obtaining app properties
+    this should increase stability when installing/upgrading appgrid
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Mon, 10 Nov 2014 12:55:13 +0100 
+
+appgrid (0.199) utopic; urgency=low
+
+  * fix (subprocess.CalledProcessError) check_output
+    this occurs if installation state gets out of sync
+    error: 9e6c8ed67b8d087910afa908ef24ffa26de086ab
+    error: f7d69dedbeebd73611e70d6451ae117c6697386b
+    error: d9cb14500ed4cd8dc870d5b2a78f2a6bacc6d563
+    error: 0b32fbf0e8dda6c13ebf521b6089d0e030a972a6
+    error: 7afd5814878dd8625afe56140a648cbb85f52290
+    error: 6433d9d7d7d7fe08ecf482d02820188f8da389d0
+    error: a49b0373fd43f8e2285ce6bf7332507d8362a58c
+  * fix (gi._glib.GError) draw
+    this occurs when a downloaded image has been corrupted
+    in the details view (secondary occurance)
+    error: bb920469dc1fb057b6a800f90e2d5faf3b42ca2a
+  * improve relevance of search results
+    makes database 33% smaller and db generation & querying slightly faster
+  * fix regression in indexing license text (makes indexing 25% faster)
+  * cache app.name whilst indexing
+  * remove unused columns from db (icon_color, mimetypes)
+  * remove ability to sort alphabetically (not as useful as might seem)
+    using the search box is a more powerful approach
+    saves 4mb db size and 0.4s+ indexing time
+  * full db generation is now sufficiently fast that we only support full db
+    generation and not partial generation
+  * index rating rather than rating histogram
+  * index rating and sort_rating on first iter rather than second
+  * pre sort data such that entire database is ordered by rating
+    makes indexing 0.7s+ faster and db queries faster too
+  * only query app.state once on indexing - saves 0.1s+
+  * actually advertise that we accept gzip encoded downloads..
+    this gives us 10x smaller review stats download - saves 0.4s+ on indexing
+  * shuffle around db so that we query the fts table rather than normal table
+    also shuffle around querying code to make it more efficient
+    this speeds up indexing a little, reduces db size a little, faster queries
+  * also trigger ftable.state update on state change
+  * add apt-key for ppa, this now means that those who downloaded the deb file
+    should get updates without the untrusted warnings
+  * 0.199 causes the db to be 45% smaller than in 0.1.183 and the
+    time to generate the db is 50% less than in 0.1.183 :)
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Thu, 02 Oct 2014 10:12:20 +0200 
+
+appgrid (0.1.183) utopic; urgency=low
+
+  * fix (KeyError) draw
+    this occurs when double clicking on the forward pager
+    error: 24d2755bad9271fea3c6e1c0368f1117d6460279
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Sat, 20 Sep 2014 09:04:36 +0200 
+
+appgrid (0.1.182) utopic; urgency=low
+
+  * stop showing updates for packages until we do it right
+  * more robust installation state handling, hopefully fixes
+    fix (KeyError) update_state_button
+    haven't managed to reproduce yet, but code path is now avoided
+    error: 49a3e21c04a294df0b829748574a05ad0a214e57
+    fix (AttributeError) update_state_button
+    open a deb file and install it followed by remove it
+    error: 3dbf1cb5c4fbbb2b61efbed489372a3fb1ae5e6f
+    fix (sqlite3.OperationalError) update_state_button
+    database is locked, code path is now avoided
+    error: 60e6d2f00b2db695317ea51e7b550cb2bbb68f6f
+  * support desktop files in /opt/ for the details view launch button
+  * update pot file
+  * dutch translation
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Fri, 19 Sep 2014 17:42:52 +0200 
+
+appgrid (0.1.177) utopic; urgency=low
+
+  * simplify command line arguments
+  * don't draw icons on home screen
+  * better handling of switching between pages of results and loading data
+  * set 'ssl-use-system-ca-file' rather than 'ssl-ca-file' as per docs
+  * place 'my purchases' in user menu
+  * slightly improved 'my purchases' view
+  * fix (ValueError) do_search
+    this occurs when trying to parse a list of subscriptions when no response
+    is available
+    error: 439905f6e3fd54eb99204c2ac5ee55531bd8c7e7
+  * fix (gi._glib.GError) draw
+    this occurs when a downloaded image has been corrupted
+    only fixed for the home view atm (primary occurance)
+    error: bb920469dc1fb057b6a800f90e2d5faf3b42ca2a
+  * initial support for drawing headers (not yet being used)
+  * remove unused code in appdata/apps/appinstallapp.py
+  * remove unused mimetypes code
+  * remove unused thumbnails property
+  * remove unused reviews properties
+  * slightly cleaner approach to categories, aka faster indexing
+  * cleaner usage of categories client side
+  * don't use icon data - if needed in the future we'll take diff approach
+  * use DebFileApp directly rather than wrapping it in client
+  * remove origin_id from Client
+  * remove origin and license from Client
+  * no more Client() wrapping
+  * treat apps with a desktop file as a property of AptApp
+  * continue to adjust the spacing of rows
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Fri, 19 Sep 2014 10:46:52 +0200 
+
+appgrid (0.1.157) utopic; urgency=low
+
+  * fix (TypeError) on_property_changed
+    error: 9a9ad5dc8c79d7327106a73451832cbe296e34ef
+  * fix (KeyError) get_client
+    this occurs when launching appgrid with as argument a virtual package
+    we don't yet support enabling distro-partner channel for adobe-flashplugin
+    error: bcb611c1ba7a9c449cc77f2f0c25ebe19fadbb21
+  * fix (KeyError) get_client
+    this occurs when launching appgrid with as argument a package without
+    either a candidate version or an installed version
+  * fix (AttributeError) set_queue
+    this occurs when clicking on the progress of a deb file which is being
+    installed if it is not a known package in the apt cache
+    error: 9f1eb2f6c9eb323a04d650f3239f5febedf5e6ef
+  * fix (AttributeError) draw_icon
+    this occurs when viewing the progress of an app which has a icon which
+    needs downloading
+    error: d4b2f660eb6fc1ccf57ba9329d79418427274cef
+  * fix (OSError) print
+    this is a really strange issue where "print('something')" causes issues
+    have no clue why this is failing, but it seems to affect a fair few people
+    error: 0511da035df11b759a44999389a7d281fab4dd29
+    error: 06faafbd9adfa3376f733419e4fe2f877776cf9e
+    error: 685adb8fd52d4f94baf3ef67aad40bfa730b18aa
+    error: 76f5f43a57d83477fbcc8cc46ddef630066abe4f
+    error: e759e5cc85c49199e2c88d20be0f7349a96acc93
+  * fix (NameError) confirm_login
+    reimport WebKit within this scope too
+    error: c47433f84036cb350939848c7e37d7564c3ffa6e
+  * add Polish translation (thanks!)
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Fri, 01 Aug 2014 12:31:45 +0200 
+
+
+appgrid (0.1.150) utopic; urgency=low
+
+  * improve sign in / sign out visuals
+  * tidy up top right of reviews pane
+  * reset reviews after writing a new review
+  * update pot file
+  * pep8
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Mon, 28 Jul 2014 10:26:44 +0200 
+
+appgrid (0.1.145) utopic; urgency=low
+
+  * add support for utopic
+  * remove support for precise (ie no more python2) (trusty is a newer LTS)
+  * remove support for raring, quantal, saucy (EOL)
+  * no longer wrap appgrid in bash script
+  * fix for stricter pep8 and pyflakes
+  * remove singletons.py
+  * unify package metadata & update footer (formerly r102)
+  * update pot file
+  * fix spelling mistake in nl.po
+  * hallo Deutschland (vielen Dank!)
+  * no more gridded backgrounds (omg!ubuntu!)
+  * cleaner tiles on home screen
+  * fix issue with duplicated apps in search results on second/third page
+  * improved paging buttons on home screen
+  * add support for paged scrolling through home screen
+  * nicer alignments/spacing for home screen
+  * modify alignments of details screen to better fit with home screen
+  * rework (nearly everything in) the reviews screen
+  * change gallery screen
+  * only show support link if defined (ie don't fallback to askubuntu)
+  * don't use Loading() in addons.py - causes many redraws
+  * rewrite details view (nicer, faster, lighter, etc)
+  * delete gallery view (now integrated in details)
+  * delete reviews view (now integrated in details)
+  * revamp home screen
+  * delete pickers widget (no longer used in home screen)
+  * use a more modern approach for trying to bring bug reports to lp:appgrid
+  * unified deb - one package for trusty, utopic
+  * set larger minimal window size
+  * zoomed images should also use previous and next both on the right
+  * decrease chance of running out of apps on the home screen
+  * consistently use dotted smiles
+  * implement smile menu
+  * update pot file
+  * update dutch translation
+  * pyflakes / pep8
+  * THIS IS A PREVIEW UPLOAD ONLY INTENDED FOR UTOPIC - DO NOT USE ON TRUSTY
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Fri, 25 Jul 2014 14:45:11 +0200 
+
+appgrid (0.1.101) UNRELEASED; urgency=low
+
+  * refresh translations (much thanks!)
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Tue, 06 May 2014 13:43:50 +0200 
+
+appgrid (0.1.100) UNRELEASED; urgency=low
+
+  * ship Italian and Ukrainian translations (much thanks!)
+  * make pickers work with unicode labels
+  * yes we really do want to log in at login.ubuntu.com
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Tue, 04 Mar 2014 21:50:11 +0100 
+
+appgrid (0.1.96) UNRELEASED; urgency=low
+
+  * fix downloads_dir unicodeness in python2 (LP: #1231113)
+  * explicitly use python2 in precise, rather than python (probs LP: #1271902)
+  * don't allow installation to fail if /etc/gnome/defaults.list doesn't exist
+  * don't fail if /etc/apport/crashdb.conf.d doesn't exist (via ubuntuusers.de)
+  * new home view
+  * work around massive sqlite regression in trusty (0.01s --> ~30s) :(
+  * refine startup speed and initial memory usage
+  * update pot file
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Wed, 19 Feb 2014 09:48:55 +0100 
+
+appgrid (0.1.89) UNRELEASED; urgency=low
+
+  * improved gallery
+  * new pickers in reviews screen
+  * correctly position menus in trusty
+  * import Spanish translation (much thanks!)
+  * add dependency on python{3}-gi-cairo (much thanks!) (LP: #1268681)
+  * launch installed apps correctly in trusty
+  * get rid of source_remove warnings in trusty
+  * fix deprecation warnings for gobject constructors in trusty
+  * fix building on trusty
+  * support trusty
+  * update pot file
+  * allow App Grid to run on luna - note THIS IS *NOT* A SUPPORTED PLATFORM
+  * deal with random desktop files placed in app-install-data (LP: #1241293)
+  * regrab apt/deb file associations
+  * the ubuntu-sso-client package in precise is missing a dependency
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Tue, 14 Jan 2014 15:56:25 +0100 
+
+appgrid (0.1.72) UNRELEASED; urgency=low
+
+  * respect sort method when searching
+  * allow i18n of 'category'/'state'/'sort' in home screen
+  * improved gallery
+  * improved details screen
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Mon, 11 Nov 2013 11:08:23 +0100 
+
+appgrid (0.1.66) UNRELEASED; urgency=low
+
+  * new home screen
+  * improve tests
+  * improve database integrity
+  * get rid of lag in opening details view in saucy
+  * update translations
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Tue, 05 Nov 2013 11:59:54 +0100 
+
+appgrid (0.1.60) UNRELEASED; urgency=low
+
+  * make app grid ppa sources.list.d entry last beyond dist upgrade
+  * more robust against unknown locales (LP: #1230063)
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Thu, 10 Oct 2013 11:39:17 +0200 
+
+appgrid (0.1.58) raring; urgency=low
+
+  * make App Grid run on Ubuntu 12.04, 12.10, 13.10
+  * GLib.source_remove instead of GObject.source_remove
+  * solidify U1 login
+  * fix crash in draw_icon in details
+  * increase spacing in home screen
+  * horizontally center thumbnails in tile
+  * remove orange line from tile and make rating clearer
+  * remove icon overlays from thumbnails --> ratings turn green if installed
+  * fix vertical spacing in sidebar
+  * more vertical space for thumbs
+  * render ratings before thumbs
+  * add hints to details view
+  * don't overwhelm those with high res screens
+  * skip indexing apps w/ strangenesses (LP: #1217465, LP: #1218143,
+    LP: #1218590, AU: #339856)
+  * very basic RTL support
+  * update icons
+  * make search grab focus on startup and simplify Entry code
+  * fix render error when allocation isn't up-to-date enough
+  * add donations
+  * remove X-Python-Version as builders mutter
+  * fix crash in setup.py in saucy
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Mon, 16 Sep 2013 13:36:28 +0200 
+
+appgrid (0.1.35) raring; urgency=low
+ 
+   * initial snapshot.
+ 
+ -- pgg (appgrid) <pgg@appgrid.org>  Sun, 25 Aug 2013 20:54:08 +0200 

@@ -1,0 +1,21 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+# unfortunately there doesn't seem to be a cleaner way to do this (reset to s-c as default)
+if [ -f /etc/gnome/defaults.list ] ; then
+    sed -i '/application\/x-deb=/d' /etc/gnome/defaults.list
+    sed -i '/application\/x-debian-package=/d' /etc/gnome/defaults.list
+    sed -i '/x-scheme-handler\/apt=/d' /etc/gnome/defaults.list
+    echo 'application/x-deb=ubuntu-software-center.desktop' >> /etc/gnome/defaults.list
+    echo 'application/x-debian-package=ubuntu-software-center.desktop' >> /etc/gnome/defaults.list
+    echo 'x-scheme-handler/apt=ubuntu-software-center.desktop' >> /etc/gnome/defaults.list
+fi
+
+# clean etc
+rm -f /var/cache/appgrid/*
+rmdir /var/cache/appgrid || true
+rm -f /etc/init/appgrid.conf
+rm -f /etc/apt/apt.conf.d/99appgrid
+rm -f /etc/cron.daily/appgrid

@@ -1,0 +1,9 @@
+[Unit]
+Description=keep appgrid db with correct installation state
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/appgrid --monitor-state
+
+[Install]
+WantedBy=multi-user.target

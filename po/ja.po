@@ -1,0 +1,462 @@
+# Japanese translation for appgrid
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the BSD license.
+# https://help.launchpad.net/Translations/LicensingFAQ
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: appgrid\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-09 16:06+0100\n"
+"PO-Revision-Date: 2015-12-30 03:04+0000\n"
+"Last-Translator: Inasis <inasis@live.co.kr>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-12-31 05:35+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
+
+#: ../appdata/apps/aptapp.py:90 ../appdata/apps/sqliteapp.py:45
+msgid "Open Source"
+msgstr "オープンソース"
+
+#: ../appdata/apps/aptapp.py:92 ../appdata/apps/aptapp.py:94
+#: ../appdata/apps/sqliteapp.py:47 ../appdata/apps/sqliteapp.py:49
+msgid "Proprietary"
+msgstr "プロプライエタリ"
+
+#: ../appdata/apps/aptapp.py:95 ../appdata/apps/aptapp.py:122
+#: ../appdata/apps/debfileapp.py:117 ../appdata/apps/debfileapp.py:128
+#: ../appdata/apps/sqliteapp.py:50 ../appdata/apps/sqliteapp.py:71
+msgid "Unknown"
+msgstr "不明"
+
+#: ../appdata/apps/aptapp.py:113 ../appdata/apps/sqliteapp.py:62
+msgid "Ubuntu"
+msgstr "Ubuntu"
+
+#: ../appdata/apps/aptapp.py:117 ../appdata/apps/sqliteapp.py:66
+msgid "Canonical Partners"
+msgstr "Canonical パートナー"
+
+#: ../appdata/apps/aptapp.py:119 ../appdata/apps/sqliteapp.py:68
+msgid "Ubuntu Extras"
+msgstr "Ubuntu Extras"
+
+#: ../appdata/apps/sqliteapp.py:64
+msgid "Canonical Store"
+msgstr "Canonical ストア"
+
+#: ../appdata/categories.py:39
+msgid "Programming"
+msgstr "プログラミング"
+
+#: ../appdata/categories.py:39
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../appdata/categories.py:39
+msgid "Java"
+msgstr "Java"
+
+#: ../appdata/categories.py:39
+msgid "Libraries"
+msgstr "ライブラリ"
+
+#: ../appdata/categories.py:39
+msgid "Mono/CLI"
+msgstr "Mono/CLI"
+
+#: ../appdata/categories.py:40
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../appdata/categories.py:40
+msgid "Perl"
+msgstr "Perl"
+
+#: ../appdata/categories.py:40
+msgid "Python"
+msgstr "Python"
+
+#: ../appdata/categories.py:40
+msgid "Ruby"
+msgstr "Ruby"
+
+#: ../appdata/categories.py:41
+msgid "Web Development"
+msgstr "Web開発"
+
+#: ../appdata/categories.py:42
+msgid "Arts"
+msgstr "アート"
+
+#: ../appdata/categories.py:42
+msgid "Graphics"
+msgstr "グラフィック"
+
+#: ../appdata/categories.py:42
+msgid "Languages"
+msgstr "言語"
+
+#: ../appdata/categories.py:42
+msgid "Multimedia"
+msgstr "マルチメディア"
+
+#: ../appdata/categories.py:43
+msgid "Games"
+msgstr "ゲーム"
+
+#: ../appdata/categories.py:43
+msgid "Arcade"
+msgstr "アーケード"
+
+#: ../appdata/categories.py:43
+msgid "Board Games"
+msgstr "ボードゲーム"
+
+#: ../appdata/categories.py:43
+msgid "Card Games"
+msgstr "カードゲーム"
+
+#: ../appdata/categories.py:43
+msgid "Puzzles"
+msgstr "パズル"
+
+#: ../appdata/categories.py:44
+msgid "Role-Playing"
+msgstr "ロールプレイング"
+
+#: ../appdata/categories.py:44
+msgid "Simulation"
+msgstr "シミュレーション"
+
+#: ../appdata/categories.py:45
+msgid "Productivity"
+msgstr "プロダクティビティ"
+
+#: ../appdata/categories.py:45
+msgid "Communication"
+msgstr "通信"
+
+#: ../appdata/categories.py:45
+msgid "Text Editors"
+msgstr "テキストエディター"
+
+#: ../appdata/categories.py:46
+msgid "Web Browsers"
+msgstr "ウェブブラウザー"
+
+#: ../appdata/categories.py:47
+msgid "Sciences"
+msgstr "科学"
+
+#: ../appdata/categories.py:47
+msgid "Natural Sciences"
+msgstr "自然科学"
+
+#: ../appdata/categories.py:47
+msgid "Engineering"
+msgstr "工学"
+
+#: ../appdata/categories.py:47
+msgid "Mathematics"
+msgstr "数学"
+
+#: ../appdata/categories.py:48
+msgid "System"
+msgstr "システム"
+
+#: ../appdata/categories.py:48
+msgid "Accessibility"
+msgstr "ユーザー補助"
+
+#: ../appdata/categories.py:48
+msgid "Appearance"
+msgstr "外観"
+
+#: ../appdata/categories.py:48
+msgid "Configuration"
+msgstr "設定"
+
+#: ../appdata/categories.py:49
+msgid "Documentation"
+msgstr "ドキュメント"
+
+#: ../appdata/categories.py:49
+msgid "Fonts"
+msgstr "フォント"
+
+#: ../appdata/categories.py:49
+msgid "Language Support"
+msgstr "言語サポート"
+
+#: ../widgets/details.py:288
+msgid "Not found"
+msgstr "見つかりません"
+
+#: ../widgets/details.py:301 ../widgets/magicbutton.py:122
+msgid "Install"
+msgstr "インストール"
+
+#: ../widgets/details.py:303 ../widgets/magicbutton.py:160
+msgid "Remove"
+msgstr "削除"
+
+#: ../widgets/details.py:305 ../widgets/magicbutton.py:147
+msgid "Launch"
+msgstr "起動する"
+
+#: ../widgets/details.py:307 ../widgets/magicbutton.py:162
+msgid "Installing…"
+msgstr "インストール中..."
+
+#: ../widgets/details.py:309 ../widgets/magicbutton.py:164
+msgid "Launching…"
+msgstr "起動中..."
+
+#: ../widgets/details.py:311 ../widgets/magicbutton.py:167
+msgid "Removing…"
+msgstr "削除しています..."
+
+#: ../widgets/details.py:408
+msgid "Identifier"
+msgstr "名称"
+
+#: ../widgets/details.py:409 ../widgets/details.py:434
+#: ../widgets/details.py:440
+msgid "Addons"
+msgstr "アドオン"
+
+#: ../widgets/details.py:410
+msgid "Version"
+msgstr "バージョン"
+
+#: ../widgets/details.py:411
+msgid "Origin"
+msgstr "ソフトウェアソース"
+
+#: ../widgets/details.py:412
+msgid "License"
+msgstr "使用許諾書"
+
+#: ../widgets/details.py:413 ../widgets/details.py:434
+#: ../widgets/details.py:444
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: ../widgets/details.py:490
+msgid "Reviews"
+msgstr "レビュー"
+
+#: ../widgets/details.py:512
+msgid "Write a Review"
+msgstr "レビューを書く"
+
+#: ../widgets/details.py:536
+msgid "delete review"
+msgstr "レビューを消す"
+
+#: ../widgets/details.py:539
+msgid "flag review"
+msgstr "レビューにフラッグ"
+
+#: ../widgets/details.py:667
+msgid "All languages"
+msgstr "すべての言語"
+
+#: ../widgets/flag_review.py:20
+msgid "Why does this review require our attention:"
+msgstr "このレビューが役に立った理由は何ですか:"
+
+#: ../widgets/flag_review.py:31
+msgid "Reason"
+msgstr "理由"
+
+#: ../widgets/flag_review.py:45
+msgid "Reason required"
+msgstr "理由が必要です"
+
+#: ../widgets/flag_review.py:47 ../widgets/write_review.py:70
+msgid "Submitting…"
+msgstr "送信中..."
+
+#: ../widgets/flag_review.py:62 ../widgets/write_review.py:114
+msgid "Submit"
+msgstr "送信"
+
+#: ../widgets/home.py:21
+msgid "Search…"
+msgstr "検索中..."
+
+#: ../widgets/home.py:79
+msgid "Category"
+msgstr "カテゴリ"
+
+#: ../widgets/home.py:84
+msgid "State"
+msgstr "状況"
+
+#: ../widgets/home.py:85 ../widgets/home.py:406
+msgid "Installed"
+msgstr "インストール済"
+
+#: ../widgets/home.py:87
+msgid "Sort"
+msgstr "ソート"
+
+#: ../widgets/home.py:88
+msgid "Top Rated"
+msgstr "人気のソフト"
+
+#: ../widgets/home.py:97
+#, python-format
+msgid "Pending (%d)"
+msgstr "保留 (%d)"
+
+#: ../widgets/home.py:299
+msgid "Sign in"
+msgstr "サインイン"
+
+#: ../widgets/home.py:460
+msgid "No results"
+msgstr "一致するものがありません"
+
+#: ../widgets/home.py:536
+msgid "Make a donation"
+msgstr "寄付する"
+
+#: ../widgets/home.py:537
+msgid "Provide feedback"
+msgstr "フィードバック"
+
+#: ../widgets/home.py:538
+msgid "Share our website"
+msgstr "ウェブサイトを共有"
+
+#: ../widgets/home.py:571
+msgid "My Purchases"
+msgstr "購入したもの"
+
+#: ../widgets/home.py:572
+msgid "Sign out"
+msgstr "サインアウト"
+
+#: ../widgets/login.py:20
+msgid "Sign in with your Ubuntu One account:"
+msgstr "Ubuntu Oneのアカウントでサインイン:"
+
+#. e-mail
+#: ../widgets/login.py:25
+msgid "E-mail address"
+msgstr "Eメールアドレス"
+
+#. password
+#: ../widgets/login.py:29
+msgid "Password"
+msgstr "パスワード"
+
+#: ../widgets/login.py:40
+msgid "Don't have an account?"
+msgstr "アカウントを持っていませんか?"
+
+#: ../widgets/login.py:41
+#, python-format
+msgid ""
+"An Ubuntu One account is free and gives access  to many Ubuntu-related "
+"services. You can create your account at %s."
+msgstr "Ubuntu Oneアカウントは無料で多くの Ubuntuに関するサービスにアクセスできます。アカウントは %s で作れます。"
+
+#: ../widgets/login.py:51
+msgid "Verification failed - please try again."
+msgstr "認証失敗 - もう一度試してください。"
+
+#: ../widgets/login.py:59
+msgid "Signing In…"
+msgstr "サインイン..."
+
+#: ../widgets/login.py:68 ../widgets/login.py:80
+msgid "Sign In"
+msgstr "サインイン"
+
+#: ../widgets/pending.py:62
+msgid "no pending apps"
+msgstr "保留したアプリはありません"
+
+#: ../widgets/purchases.py:20
+msgid "My Purchases:"
+msgstr "My Purchases:"
+
+#: ../widgets/purchases.py:27
+msgid ""
+"To reinstall purchases you will need to use the Ubuntu Software Center."
+msgstr ""
+"To reinstall purchases you will need to use the Ubuntu Software Center."
+
+#: ../widgets/purchases.py:61
+msgid "no purchased apps"
+msgstr "no purchased apps"
+
+#: ../widgets/removal_warnings.py:23
+msgid "The following apps will be removed:"
+msgstr "次のアプリが削除されます:"
+
+#: ../widgets/removal_warnings.py:70
+msgid "Continue"
+msgstr "続行"
+
+#: ../widgets/tos.py:33
+msgid "Welcome to App Grid!"
+msgstr "App Gridにようこそ!"
+
+#: ../widgets/tos.py:34
+msgid "In order to use App Grid, you will need to agree to the following:"
+msgstr "App Gridを使用するには以下の同意が必要です:"
+
+#: ../widgets/tos.py:50
+msgid "Please see /usr/share/appgrid/LEGAL for full details."
+msgstr "Please see /usr/share/appgrid/LEGAL for full details."
+
+#: ../widgets/tos.py:69
+msgid "I Agree"
+msgstr "同意する"
+
+#: ../widgets/tos.py:78
+msgid "I disagree"
+msgstr "同意しない"
+
+#: ../widgets/transaction_failed.py:49
+msgid "OK"
+msgstr "OK"
+
+#. summary
+#: ../widgets/write_review.py:23
+msgid "Summary"
+msgstr "要約"
+
+#: ../widgets/write_review.py:37
+msgid "Review"
+msgstr "レビュー"
+
+#: ../widgets/write_review.py:45
+msgid ""
+"By submitting your review, you give permission for your name and review to "
+"be published. Your review is not a bug report, nor a support request. "
+"Furthermore your review is respectable towards the developers and others."
+msgstr ""
+"レビューを送信するとあなたの名前とレビューが公開されます。ビューはバグ報告ではありませんしサポートの要求でもありません。さらにレビューは開発者や他人に対し"
+"てお行儀よくしてください。"
+
+#: ../widgets/write_review.py:62
+msgid "Summary required"
+msgstr "要約が必要です"
+
+#: ../widgets/write_review.py:65
+msgid "Rating required"
+msgstr "評価が必要です"
+
+#: ../widgets/write_review.py:68
+msgid "Review required"
+msgstr "レビューが必要です"

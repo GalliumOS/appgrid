@@ -1,0 +1,459 @@
+# Norwegian Bokmal translation for appgrid
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the BSD license.
+# https://help.launchpad.net/Translations/LicensingFAQ
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: appgrid\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-09 16:06+0100\n"
+"PO-Revision-Date: 2016-01-05 15:09+0000\n"
+"Last-Translator: Marius Gripsgard  <me@mariogrip.com>\n"
+"Language-Team: Norwegian Bokmal <nb@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-01-06 05:44+0000\n"
+"X-Generator: Launchpad (build 17876)\n"
+
+#: ../appdata/apps/aptapp.py:90 ../appdata/apps/sqliteapp.py:45
+msgid "Open Source"
+msgstr "Åpen kildekode"
+
+#: ../appdata/apps/aptapp.py:92 ../appdata/apps/aptapp.py:94
+#: ../appdata/apps/sqliteapp.py:47 ../appdata/apps/sqliteapp.py:49
+msgid "Proprietary"
+msgstr "Merkebeskyttet"
+
+#: ../appdata/apps/aptapp.py:95 ../appdata/apps/aptapp.py:122
+#: ../appdata/apps/debfileapp.py:117 ../appdata/apps/debfileapp.py:128
+#: ../appdata/apps/sqliteapp.py:50 ../appdata/apps/sqliteapp.py:71
+msgid "Unknown"
+msgstr "Ukjent"
+
+#: ../appdata/apps/aptapp.py:113 ../appdata/apps/sqliteapp.py:62
+msgid "Ubuntu"
+msgstr "Ubuntu"
+
+#: ../appdata/apps/aptapp.py:117 ../appdata/apps/sqliteapp.py:66
+msgid "Canonical Partners"
+msgstr "Canonicals partnere"
+
+#: ../appdata/apps/aptapp.py:119 ../appdata/apps/sqliteapp.py:68
+msgid "Ubuntu Extras"
+msgstr "Ubuntu Ekstra"
+
+#: ../appdata/apps/sqliteapp.py:64
+msgid "Canonical Store"
+msgstr "Canonical butikk"
+
+#: ../appdata/categories.py:39
+msgid "Programming"
+msgstr "Programmering"
+
+#: ../appdata/categories.py:39
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../appdata/categories.py:39
+msgid "Java"
+msgstr "Java"
+
+#: ../appdata/categories.py:39
+msgid "Libraries"
+msgstr "Biblioteker"
+
+#: ../appdata/categories.py:39
+msgid "Mono/CLI"
+msgstr "Mono/CLI"
+
+#: ../appdata/categories.py:40
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../appdata/categories.py:40
+msgid "Perl"
+msgstr "Perl"
+
+#: ../appdata/categories.py:40
+msgid "Python"
+msgstr "Python"
+
+#: ../appdata/categories.py:40
+msgid "Ruby"
+msgstr "Ruby"
+
+#: ../appdata/categories.py:41
+msgid "Web Development"
+msgstr "Nettutvikling"
+
+#: ../appdata/categories.py:42
+msgid "Arts"
+msgstr "Kunst"
+
+#: ../appdata/categories.py:42
+msgid "Graphics"
+msgstr "Grafikk"
+
+#: ../appdata/categories.py:42
+msgid "Languages"
+msgstr "Språk"
+
+#: ../appdata/categories.py:42
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: ../appdata/categories.py:43
+msgid "Games"
+msgstr "Spill"
+
+#: ../appdata/categories.py:43
+msgid "Arcade"
+msgstr "Arkade"
+
+#: ../appdata/categories.py:43
+msgid "Board Games"
+msgstr "Brettspill"
+
+#: ../appdata/categories.py:43
+msgid "Card Games"
+msgstr "Kortspill"
+
+#: ../appdata/categories.py:43
+msgid "Puzzles"
+msgstr "Hjernetrim"
+
+#: ../appdata/categories.py:44
+msgid "Role-Playing"
+msgstr "Rollespill"
+
+#: ../appdata/categories.py:44
+msgid "Simulation"
+msgstr "Simulator"
+
+#: ../appdata/categories.py:45
+msgid "Productivity"
+msgstr "Produktivitet"
+
+#: ../appdata/categories.py:45
+msgid "Communication"
+msgstr "Kommunikasjon"
+
+#: ../appdata/categories.py:45
+msgid "Text Editors"
+msgstr "Tekstredigering"
+
+#: ../appdata/categories.py:46
+msgid "Web Browsers"
+msgstr "Nettlesere"
+
+#: ../appdata/categories.py:47
+msgid "Sciences"
+msgstr ""
+
+#: ../appdata/categories.py:47
+msgid "Natural Sciences"
+msgstr ""
+
+#: ../appdata/categories.py:47
+msgid "Engineering"
+msgstr ""
+
+#: ../appdata/categories.py:47
+msgid "Mathematics"
+msgstr "Matematikk"
+
+#: ../appdata/categories.py:48
+msgid "System"
+msgstr "System"
+
+#: ../appdata/categories.py:48
+msgid "Accessibility"
+msgstr "Tilgjengelighet"
+
+#: ../appdata/categories.py:48
+msgid "Appearance"
+msgstr "Utseende"
+
+#: ../appdata/categories.py:48
+msgid "Configuration"
+msgstr "Innstillinger"
+
+#: ../appdata/categories.py:49
+msgid "Documentation"
+msgstr "Dokumentasjon"
+
+#: ../appdata/categories.py:49
+msgid "Fonts"
+msgstr "Skrifttyper"
+
+#: ../appdata/categories.py:49
+msgid "Language Support"
+msgstr "Språkstøtte"
+
+#: ../widgets/details.py:288
+msgid "Not found"
+msgstr "Ikke funnet"
+
+#: ../widgets/details.py:301 ../widgets/magicbutton.py:122
+msgid "Install"
+msgstr "Installer"
+
+#: ../widgets/details.py:303 ../widgets/magicbutton.py:160
+msgid "Remove"
+msgstr "Fjern"
+
+#: ../widgets/details.py:305 ../widgets/magicbutton.py:147
+msgid "Launch"
+msgstr "Start"
+
+#: ../widgets/details.py:307 ../widgets/magicbutton.py:162
+msgid "Installing…"
+msgstr "Installerer..."
+
+#: ../widgets/details.py:309 ../widgets/magicbutton.py:164
+msgid "Launching…"
+msgstr "Starter..."
+
+#: ../widgets/details.py:311 ../widgets/magicbutton.py:167
+msgid "Removing…"
+msgstr "Fjerner..."
+
+#: ../widgets/details.py:408
+msgid "Identifier"
+msgstr ""
+
+#: ../widgets/details.py:409 ../widgets/details.py:434
+#: ../widgets/details.py:440
+msgid "Addons"
+msgstr "Utvidelser"
+
+#: ../widgets/details.py:410
+msgid "Version"
+msgstr "Versjon"
+
+#: ../widgets/details.py:411
+msgid "Origin"
+msgstr "Opprinnelse"
+
+#: ../widgets/details.py:412
+msgid "License"
+msgstr "Lisens"
+
+#: ../widgets/details.py:413 ../widgets/details.py:434
+#: ../widgets/details.py:444
+msgid "Website"
+msgstr "Nettside"
+
+#: ../widgets/details.py:490
+msgid "Reviews"
+msgstr "Anmeldelser"
+
+#: ../widgets/details.py:512
+msgid "Write a Review"
+msgstr "Skriv en anmeldelse"
+
+#: ../widgets/details.py:536
+msgid "delete review"
+msgstr "Fjern anmeldelse"
+
+#: ../widgets/details.py:539
+msgid "flag review"
+msgstr "Rapporter anmeldelse"
+
+#: ../widgets/details.py:667
+msgid "All languages"
+msgstr "Alle språk"
+
+#: ../widgets/flag_review.py:20
+msgid "Why does this review require our attention:"
+msgstr "Hvorfor denne anmeldelsen krever vår oppmerksomhet:"
+
+#: ../widgets/flag_review.py:31
+msgid "Reason"
+msgstr "Årsak"
+
+#: ../widgets/flag_review.py:45
+msgid "Reason required"
+msgstr "Grunn påkrevd"
+
+#: ../widgets/flag_review.py:47 ../widgets/write_review.py:70
+msgid "Submitting…"
+msgstr "Sender inn..."
+
+#: ../widgets/flag_review.py:62 ../widgets/write_review.py:114
+msgid "Submit"
+msgstr "Send inn"
+
+#: ../widgets/home.py:21
+msgid "Search…"
+msgstr "Søk…"
+
+#: ../widgets/home.py:79
+msgid "Category"
+msgstr "Kategori"
+
+#: ../widgets/home.py:84
+msgid "State"
+msgstr "Tilstand"
+
+#: ../widgets/home.py:85 ../widgets/home.py:406
+msgid "Installed"
+msgstr "Installert"
+
+#: ../widgets/home.py:87
+msgid "Sort"
+msgstr "Sorter"
+
+#: ../widgets/home.py:88
+msgid "Top Rated"
+msgstr "Høyest vurderte"
+
+#: ../widgets/home.py:97
+#, python-format
+msgid "Pending (%d)"
+msgstr "Venter (%d)"
+
+#: ../widgets/home.py:299
+msgid "Sign in"
+msgstr "Logg inn"
+
+#: ../widgets/home.py:460
+msgid "No results"
+msgstr "Ingen resultater"
+
+#: ../widgets/home.py:536
+msgid "Make a donation"
+msgstr "Gi et bidrag"
+
+#: ../widgets/home.py:537
+msgid "Provide feedback"
+msgstr "Gi tilbakemelding"
+
+#: ../widgets/home.py:538
+msgid "Share our website"
+msgstr "Del vår nettside"
+
+#: ../widgets/home.py:571
+msgid "My Purchases"
+msgstr "Mine kjøp"
+
+#: ../widgets/home.py:572
+msgid "Sign out"
+msgstr "Logg ut"
+
+#: ../widgets/login.py:20
+msgid "Sign in with your Ubuntu One account:"
+msgstr "Logg inn på din Ubuntu One konto:"
+
+#. e-mail
+#: ../widgets/login.py:25
+msgid "E-mail address"
+msgstr "E-postadresse"
+
+#. password
+#: ../widgets/login.py:29
+msgid "Password"
+msgstr "Passord"
+
+#: ../widgets/login.py:40
+msgid "Don't have an account?"
+msgstr "Har du ikke en konto?"
+
+#: ../widgets/login.py:41
+#, python-format
+msgid ""
+"An Ubuntu One account is free and gives access  to many Ubuntu-related "
+"services. You can create your account at %s."
+msgstr ""
+
+#: ../widgets/login.py:51
+msgid "Verification failed - please try again."
+msgstr "Verifisering mislyktes - vennligst prøv igjen."
+
+#: ../widgets/login.py:59
+msgid "Signing In…"
+msgstr "Logger inn..."
+
+#: ../widgets/login.py:68 ../widgets/login.py:80
+msgid "Sign In"
+msgstr "Logg Inn"
+
+#: ../widgets/pending.py:62
+msgid "no pending apps"
+msgstr "ingen ventende apps"
+
+#: ../widgets/purchases.py:20
+msgid "My Purchases:"
+msgstr "Mine Kjøp:"
+
+#: ../widgets/purchases.py:27
+msgid ""
+"To reinstall purchases you will need to use the Ubuntu Software Center."
+msgstr ""
+
+#: ../widgets/purchases.py:61
+msgid "no purchased apps"
+msgstr "ingen kjøpte apps"
+
+#: ../widgets/removal_warnings.py:23
+msgid "The following apps will be removed:"
+msgstr "Følgende programmer vil bli fjernet:"
+
+#: ../widgets/removal_warnings.py:70
+msgid "Continue"
+msgstr "Fortsett"
+
+#: ../widgets/tos.py:33
+msgid "Welcome to App Grid!"
+msgstr "Velkommen til App Grid!"
+
+#: ../widgets/tos.py:34
+msgid "In order to use App Grid, you will need to agree to the following:"
+msgstr "For å kunne bruke App Grid, må du godta følgende:"
+
+#: ../widgets/tos.py:50
+msgid "Please see /usr/share/appgrid/LEGAL for full details."
+msgstr "Vennligst se /usr/share/appgrid/LEGA for alle detaljer."
+
+#: ../widgets/tos.py:69
+msgid "I Agree"
+msgstr "Jeg er enig"
+
+#: ../widgets/tos.py:78
+msgid "I disagree"
+msgstr "Jeg er uenig"
+
+#: ../widgets/transaction_failed.py:49
+msgid "OK"
+msgstr "OK"
+
+#. summary
+#: ../widgets/write_review.py:23
+msgid "Summary"
+msgstr "Oppsummering"
+
+#: ../widgets/write_review.py:37
+msgid "Review"
+msgstr "Anmeldelse"
+
+#: ../widgets/write_review.py:45
+msgid ""
+"By submitting your review, you give permission for your name and review to "
+"be published. Your review is not a bug report, nor a support request. "
+"Furthermore your review is respectable towards the developers and others."
+msgstr ""
+
+#: ../widgets/write_review.py:62
+msgid "Summary required"
+msgstr "Oppsummering påkrevd"
+
+#: ../widgets/write_review.py:65
+msgid "Rating required"
+msgstr ""
+
+#: ../widgets/write_review.py:68
+msgid "Review required"
+msgstr "Anmeldelse påkrevd"

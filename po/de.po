@@ -1,0 +1,464 @@
+# German translations for appgrid.
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the BSD license.
+# https://help.launchpad.net/Translations/LicensingFAQ
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: appgrid\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-09 16:06+0100\n"
+"PO-Revision-Date: 2015-12-26 17:51+0000\n"
+"Last-Translator: Torsten Franz <Unknown>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-12-27 05:28+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
+
+#: ../appdata/apps/aptapp.py:90 ../appdata/apps/sqliteapp.py:45
+msgid "Open Source"
+msgstr "Quelloffen"
+
+#: ../appdata/apps/aptapp.py:92 ../appdata/apps/aptapp.py:94
+#: ../appdata/apps/sqliteapp.py:47 ../appdata/apps/sqliteapp.py:49
+msgid "Proprietary"
+msgstr "Proprietär"
+
+#: ../appdata/apps/aptapp.py:95 ../appdata/apps/aptapp.py:122
+#: ../appdata/apps/debfileapp.py:117 ../appdata/apps/debfileapp.py:128
+#: ../appdata/apps/sqliteapp.py:50 ../appdata/apps/sqliteapp.py:71
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: ../appdata/apps/aptapp.py:113 ../appdata/apps/sqliteapp.py:62
+msgid "Ubuntu"
+msgstr "Ubuntu"
+
+#: ../appdata/apps/aptapp.py:117 ../appdata/apps/sqliteapp.py:66
+msgid "Canonical Partners"
+msgstr "Canonical Partner"
+
+#: ../appdata/apps/aptapp.py:119 ../appdata/apps/sqliteapp.py:68
+msgid "Ubuntu Extras"
+msgstr "Ubuntu Extras"
+
+#: ../appdata/apps/sqliteapp.py:64
+msgid "Canonical Store"
+msgstr "Canonical Store"
+
+#: ../appdata/categories.py:39
+msgid "Programming"
+msgstr "Entwicklungswerkzeuge"
+
+#: ../appdata/categories.py:39
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../appdata/categories.py:39
+msgid "Java"
+msgstr "Java"
+
+#: ../appdata/categories.py:39
+msgid "Libraries"
+msgstr "Bibliotheken"
+
+#: ../appdata/categories.py:39
+msgid "Mono/CLI"
+msgstr "Mono/CLI"
+
+#: ../appdata/categories.py:40
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../appdata/categories.py:40
+msgid "Perl"
+msgstr "Perl"
+
+#: ../appdata/categories.py:40
+msgid "Python"
+msgstr "Python"
+
+#: ../appdata/categories.py:40
+msgid "Ruby"
+msgstr "Ruby"
+
+#: ../appdata/categories.py:41
+msgid "Web Development"
+msgstr "Internetentwicklung"
+
+#: ../appdata/categories.py:42
+msgid "Arts"
+msgstr "Kunst"
+
+#: ../appdata/categories.py:42
+msgid "Graphics"
+msgstr "Grafik"
+
+#: ../appdata/categories.py:42
+msgid "Languages"
+msgstr "Sprachen"
+
+#: ../appdata/categories.py:42
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: ../appdata/categories.py:43
+msgid "Games"
+msgstr "Spiele"
+
+#: ../appdata/categories.py:43
+msgid "Arcade"
+msgstr "Arkade"
+
+#: ../appdata/categories.py:43
+msgid "Board Games"
+msgstr "Brettspiele"
+
+#: ../appdata/categories.py:43
+msgid "Card Games"
+msgstr "Kartenspiele"
+
+#: ../appdata/categories.py:43
+msgid "Puzzles"
+msgstr "Puzzles"
+
+#: ../appdata/categories.py:44
+msgid "Role-Playing"
+msgstr "Rollenspiele"
+
+#: ../appdata/categories.py:44
+msgid "Simulation"
+msgstr "Simulationen"
+
+#: ../appdata/categories.py:45
+msgid "Productivity"
+msgstr "Produktivität"
+
+#: ../appdata/categories.py:45
+msgid "Communication"
+msgstr "Kommunikation"
+
+#: ../appdata/categories.py:45
+msgid "Text Editors"
+msgstr "Textebearbeitung"
+
+#: ../appdata/categories.py:46
+msgid "Web Browsers"
+msgstr "Internetnavigatoren"
+
+#: ../appdata/categories.py:47
+msgid "Sciences"
+msgstr "Wissenschaftlich"
+
+#: ../appdata/categories.py:47
+msgid "Natural Sciences"
+msgstr "Naturwissenschaften"
+
+#: ../appdata/categories.py:47
+msgid "Engineering"
+msgstr "Ingenieurwissenschaften"
+
+#: ../appdata/categories.py:47
+msgid "Mathematics"
+msgstr "Mathematik"
+
+#: ../appdata/categories.py:48
+msgid "System"
+msgstr "System"
+
+#: ../appdata/categories.py:48
+msgid "Accessibility"
+msgstr "Barrierefreiheit"
+
+#: ../appdata/categories.py:48
+msgid "Appearance"
+msgstr "Aussehen"
+
+#: ../appdata/categories.py:48
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: ../appdata/categories.py:49
+msgid "Documentation"
+msgstr "Handbücher"
+
+#: ../appdata/categories.py:49
+msgid "Fonts"
+msgstr "Schriften"
+
+#: ../appdata/categories.py:49
+msgid "Language Support"
+msgstr "Sprachunterstützung"
+
+#: ../widgets/details.py:288
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+#: ../widgets/details.py:301 ../widgets/magicbutton.py:122
+msgid "Install"
+msgstr "Installieren"
+
+#: ../widgets/details.py:303 ../widgets/magicbutton.py:160
+msgid "Remove"
+msgstr "Entfernen"
+
+#: ../widgets/details.py:305 ../widgets/magicbutton.py:147
+msgid "Launch"
+msgstr "Starten"
+
+#: ../widgets/details.py:307 ../widgets/magicbutton.py:162
+msgid "Installing…"
+msgstr "Installation läuft …"
+
+#: ../widgets/details.py:309 ../widgets/magicbutton.py:164
+msgid "Launching…"
+msgstr "Wird gestartet …"
+
+#: ../widgets/details.py:311 ../widgets/magicbutton.py:167
+msgid "Removing…"
+msgstr "Wird entfernt …"
+
+#: ../widgets/details.py:408
+msgid "Identifier"
+msgstr "Kennzeichnung"
+
+#: ../widgets/details.py:409 ../widgets/details.py:434
+#: ../widgets/details.py:440
+msgid "Addons"
+msgstr "Erweiterungen"
+
+#: ../widgets/details.py:410
+msgid "Version"
+msgstr "Version"
+
+#: ../widgets/details.py:411
+msgid "Origin"
+msgstr "Ursprung"
+
+#: ../widgets/details.py:412
+msgid "License"
+msgstr "Lizenz"
+
+#: ../widgets/details.py:413 ../widgets/details.py:434
+#: ../widgets/details.py:444
+msgid "Website"
+msgstr "Internetseite"
+
+#: ../widgets/details.py:490
+msgid "Reviews"
+msgstr "Bewertungen"
+
+#: ../widgets/details.py:512
+msgid "Write a Review"
+msgstr "Eine Bewertung schreiben"
+
+#: ../widgets/details.py:536
+msgid "delete review"
+msgstr "Bewertung löschen"
+
+#: ../widgets/details.py:539
+msgid "flag review"
+msgstr "Bewertung melden"
+
+#: ../widgets/details.py:667
+msgid "All languages"
+msgstr "Alle Sprachen"
+
+#: ../widgets/flag_review.py:20
+msgid "Why does this review require our attention:"
+msgstr "Warum erfordert diese Bewertung unsere Aufmerksamkeit?"
+
+#: ../widgets/flag_review.py:31
+msgid "Reason"
+msgstr "Grund"
+
+#: ../widgets/flag_review.py:45
+msgid "Reason required"
+msgstr "Grund benötigt"
+
+#: ../widgets/flag_review.py:47 ../widgets/write_review.py:70
+msgid "Submitting…"
+msgstr "Übermittlung läuft …"
+
+#: ../widgets/flag_review.py:62 ../widgets/write_review.py:114
+msgid "Submit"
+msgstr "Abschicken"
+
+#: ../widgets/home.py:21
+msgid "Search…"
+msgstr "Suchen …"
+
+#: ../widgets/home.py:79
+msgid "Category"
+msgstr "Kategorie"
+
+#: ../widgets/home.py:84
+msgid "State"
+msgstr "Status"
+
+#: ../widgets/home.py:85 ../widgets/home.py:406
+msgid "Installed"
+msgstr "Installiert"
+
+#: ../widgets/home.py:87
+msgid "Sort"
+msgstr "Sortieren"
+
+#: ../widgets/home.py:88
+msgid "Top Rated"
+msgstr "Beste Bewertung"
+
+#: ../widgets/home.py:97
+#, python-format
+msgid "Pending (%d)"
+msgstr "%d erledigt"
+
+#: ../widgets/home.py:299
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: ../widgets/home.py:460
+msgid "No results"
+msgstr "Keine Ergebnisse"
+
+#: ../widgets/home.py:536
+msgid "Make a donation"
+msgstr "Spenden"
+
+#: ../widgets/home.py:537
+msgid "Provide feedback"
+msgstr ""
+
+#: ../widgets/home.py:538
+msgid "Share our website"
+msgstr ""
+
+#: ../widgets/home.py:571
+msgid "My Purchases"
+msgstr "Meine Käufe"
+
+#: ../widgets/home.py:572
+msgid "Sign out"
+msgstr "Abmelden"
+
+#: ../widgets/login.py:20
+msgid "Sign in with your Ubuntu One account:"
+msgstr "Melde Ihrem »Ubuntu One«Konto anmelden:"
+
+#. e-mail
+#: ../widgets/login.py:25
+msgid "E-mail address"
+msgstr "E-Mail-Adresse"
+
+#. password
+#: ../widgets/login.py:29
+msgid "Password"
+msgstr "Passwort"
+
+#: ../widgets/login.py:40
+msgid "Don't have an account?"
+msgstr "Noch kein Konto?"
+
+#: ../widgets/login.py:41
+#, python-format
+msgid ""
+"An Ubuntu One account is free and gives access  to many Ubuntu-related "
+"services. You can create your account at %s."
+msgstr ""
+"Ein »Ubuntu One«Konto ist kostenlos und gibt Ihnen Zugriff auf viele Ubuntu-"
+"relevante Dienste. Sie können hier ein Konto erstellen: %s."
+
+#: ../widgets/login.py:51
+msgid "Verification failed - please try again."
+msgstr "Überprüfung fehlgeschlagen - bitte noch mal versuchen."
+
+#: ../widgets/login.py:59
+msgid "Signing In…"
+msgstr "Anmeldung läuft …"
+
+#: ../widgets/login.py:68 ../widgets/login.py:80
+msgid "Sign In"
+msgstr "Anmelden"
+
+#: ../widgets/pending.py:62
+msgid "no pending apps"
+msgstr "Keine anstehenden Programme"
+
+#: ../widgets/purchases.py:20
+msgid "My Purchases:"
+msgstr ""
+
+#: ../widgets/purchases.py:27
+msgid ""
+"To reinstall purchases you will need to use the Ubuntu Software Center."
+msgstr ""
+
+#: ../widgets/purchases.py:61
+msgid "no purchased apps"
+msgstr ""
+
+#: ../widgets/removal_warnings.py:23
+msgid "The following apps will be removed:"
+msgstr "Die folgenden Programme werden entfernt:"
+
+#: ../widgets/removal_warnings.py:70
+msgid "Continue"
+msgstr "Weiter"
+
+#: ../widgets/tos.py:33
+msgid "Welcome to App Grid!"
+msgstr "Willkommen bei »App Grid«!"
+
+#: ../widgets/tos.py:34
+msgid "In order to use App Grid, you will need to agree to the following:"
+msgstr "Um »App Grid« zu benutzen, müssen Sie folgendem zustimmen:"
+
+#: ../widgets/tos.py:50
+msgid "Please see /usr/share/appgrid/LEGAL for full details."
+msgstr ""
+
+#: ../widgets/tos.py:69
+msgid "I Agree"
+msgstr "Ich stimme zu."
+
+#: ../widgets/tos.py:78
+msgid "I disagree"
+msgstr "Ich lehne ab"
+
+#: ../widgets/transaction_failed.py:49
+msgid "OK"
+msgstr "Ok"
+
+#. summary
+#: ../widgets/write_review.py:23
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#: ../widgets/write_review.py:37
+msgid "Review"
+msgstr "Bewertung"
+
+#: ../widgets/write_review.py:45
+msgid ""
+"By submitting your review, you give permission for your name and review to "
+"be published. Your review is not a bug report, nor a support request. "
+"Furthermore your review is respectable towards the developers and others."
+msgstr ""
+"Mit dem Übermitteln Ihrer Bewertung erklären Sie sich bereit, Ihren Namen "
+"und Ihre Bewertung zu veröffentlichen. Ihre Bewertung ist KEINE "
+"Fehlermeldung, oder eine Unterstützungsanfrage. Außerdem haben Sie sich "
+"respektvoll gegenüber den Entwicklern und anderen ausgedrückt."
+
+#: ../widgets/write_review.py:62
+msgid "Summary required"
+msgstr "Zusammenfassung erforderlich"
+
+#: ../widgets/write_review.py:65
+msgid "Rating required"
+msgstr "Benotung erforderlich"
+
+#: ../widgets/write_review.py:68
+msgid "Review required"
+msgstr "Bewertung erforderlich"

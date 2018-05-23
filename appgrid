@@ -1,0 +1,25 @@
+#!/bin/bash
+# This code is copyrighted and all rights are reserved
+# for full legalities see the LEGAL file
+
+pappdata="/usr/bin/python3 /usr/share/appgrid/appdata.py"
+pappgrid="/usr/bin/python3 /usr/share/appgrid/appgrid.py"
+
+if [ "$1" = '--rebuild-db' ] ; then
+    $pappdata --rebuild
+elif [ "$1" = '--monitor-state' ] ; then
+    tail -F -n 0 /var/log/dpkg.log | while read line
+    do if [[ "$line" == *"status installed"* ]]
+        then line=${line/*installed /}
+        $pappdata --update_state installed\;${line/ */}
+        elif [[ "$line" == *"status not-installed"* ]]
+        then line=${line/*not-installed /}
+        $pappdata --update_state available\;${line/ */}
+        elif [[ "$line" == *"status config-files"* ]]
+        then line=${line/*config-files /}
+        $pappdata --update_state available\;${line/ */}
+    fi
+    done &
+elif [[ $EUID -ne 0 ]]
+then /usr/share/appgrid/appgrid.py "$@"
+fi

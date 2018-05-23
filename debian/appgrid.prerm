@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+# stop services
+if [ -d /run/systemd/system ]; then
+    systemctl stop appgrid.service >/dev/null || true
+fi
