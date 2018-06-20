@@ -1,8 +1,9 @@
-appgrid (0.295-galliumos0) bismuth; urgency=low
+appgrid (0.295-galliumos0+dev1) bismuth; urgency=low
 
   * Initial packaging for GalliumOS 3.0
+  * Update desktop file
 
- -- reynhout <reynhout@galliumos.org>  Wed, 23 May 2018 04:23:46 +0000
+ -- reynhout <reynhout@galliumos.org>  Wed, 20 Jun 2018 02:03:04 +0000
 
 appgrid (0.295) bionic; urgency=low
 
