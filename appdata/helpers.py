@@ -82,7 +82,7 @@ def get_response_from_sm(sm, filename, cache):
     return ''
 
 
-def request(url, async=False, oauth=None, data=None, cache=1,
+def request(url, asyn=False, oauth=None, data=None, cache=1,
             content_type='x-www-form-urlencoded'):
     if data is None:
         sm = Soup.Message.new('GET', url)
@@ -119,7 +119,7 @@ def request(url, async=False, oauth=None, data=None, cache=1,
 
     sm.request_headers.append('Accept-Encoding', 'gzip')
 
-    if async:
+    if asyn:
         return Downloadable(sm, filename, cache)
     else:
         ss.send_message(sm)

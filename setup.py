@@ -11,7 +11,7 @@ if len(sys.argv) >= 2 and sys.argv[1] == 'clean':
 
     u = 'http://archive.ubuntu.com/ubuntu/dists/%s/%s/binary-i386/Packages.gz'
 
-    for release in ['xenial', 'artful', 'bionic']:
+    for release in ['xenial', 'bionic', 'cosmic', 'disco']:
         blacklist = []
         for comp in ['main', 'restricted', 'universe', 'multiverse']:
             data = gzip.GzipFile(fileobj=urllib.request.urlopen(

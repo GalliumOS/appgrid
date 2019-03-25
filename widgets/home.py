@@ -345,7 +345,7 @@ class Home(Gtk.EventBox):
             cr.stroke()
             # thumbnail
             t = 'https://screenshots.debian.net/thumbnail/%s/' % row[0]
-            t = request(t, async=True, cache=10)
+            t = request(t, asyn=True, cache=10)
             pb = None
             if t == 'needs-download':
                 if self.drawcount == 1:

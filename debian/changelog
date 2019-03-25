@@ -1,3 +1,21 @@
+appgrid (0.298-galliumos0+dev1) bismuth; urgency=low
+
+  * Update to upstream 0.298
+  * Confirm GalliumOS changes
+    - Update desktop file
+  * TODO move changes to debian/patches
+
+ -- reynhout <reynhout@galliumos.org>  Mon, 25 Mar 2019 04:06:25 +0000
+
+appgrid (0.298) cosmic; urgency=low
+
+  * stop using 'async' as a variable so that appgrid can run on python3.7
+  * remove support for artful
+  * add support for cosmic and disco
+  * add build-dep on dh-python
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Thu, 01 Nov 2018 09:59:29 +0100 
+
 appgrid (0.295-galliumos0+dev1) bismuth; urgency=low
 
   * Initial packaging for GalliumOS 3.0
