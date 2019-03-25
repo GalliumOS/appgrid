@@ -1,8 +1,9 @@
-appgrid (0.298-galliumos0+dev1) bismuth; urgency=low
+appgrid (0.298-galliumos0+dev2) bismuth; urgency=low
 
   * Update to upstream 0.298
-  * Confirm GalliumOS changes
+  * Add GalliumOS patches
     - Update desktop file
+  * Disable unnecessary PPA key import
 
  -- reynhout <reynhout@galliumos.org>  Mon, 25 Mar 2019 04:06:25 +0000
 

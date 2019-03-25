@@ -30,7 +30,7 @@ else
 fi
 
 # add key for repo
-apt-key add - <<KEYDATA
+: apt-key add - <<KEYDATA
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: SKS 1.1.4
 Comment: Hostname: keyserver.ubuntu.com
