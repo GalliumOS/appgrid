@@ -1,0 +1,18 @@
+diff --git a/appgrid.desktop b/appgrid.desktop
+index 0175397..8a59a24 100644
+--- a/appgrid.desktop
++++ b/appgrid.desktop
+@@ -1,11 +1,11 @@
+ [Desktop Entry]
+ Categories=PackageManager;System;Settings;
+-Comment=Discover and install apps for Ubuntu
++Comment=Discover and install apps for GalliumOS
+ Exec=/usr/share/appgrid/appgrid.py %u
+ Icon=appgrid
+ Keywords=App;AppGrid;Apps;AppStore;Buy;Browse;Center;Install;Installer;Purchase;Software;Store;Remove;Uninstall;
+ MimeType=x-scheme-handler/apt;application/x-deb;application/x-debian-package;
+-Name=App Grid
++Name=App Grid Software Center
+ StartupNotify=true
+ Terminal=false
+ Type=Application
