@@ -71,7 +71,7 @@ class Details(Gtk.EventBox):
 #        from accountmanager import am
 #        if am.get_state().startswith('signedin:'):
 #            import json
-#            self.username = json.loads(am.whoami(async=False))['username']
+#            self.username = json.loads(am.whoami(asyn=False))['username']
 #        else:
         self.username = ''
 
@@ -97,7 +97,7 @@ class Details(Gtk.EventBox):
                 urls = [u.replace('https://screenshots.ubuntu.com/',
                                   'https://screenshots.debian.net/')
                         for u in urls]
-                scr = [request(u, async=True, cache=10) for u in urls]
+                scr = [request(u, asyn=True, cache=10) for u in urls]
             self.screenshots = scr
 
             for i, f in enumerate(self.screenshots):  # FIXME only get visible?
@@ -107,7 +107,7 @@ class Details(Gtk.EventBox):
             self.queue_draw()
 
         url = 'https://screenshots.debian.net/json/package/%s'
-        r = request(url % self.app.id, async=True, cache=3)
+        r = request(url % self.app.id, asyn=True, cache=3)
         if r == 'needs-download':
             r.connect('downloaded', got_json)
             r.download()
@@ -150,7 +150,7 @@ class Details(Gtk.EventBox):
                 lang = 'en'
         else:
             lang = 'any'
-        r = request(url % (lang, self.app.id, page), async=True, cache=False)
+        r = request(url % (lang, self.app.id, page), asyn=True, cache=False)
         r.connect('downloaded', on_page_downloaded, self.lang)
         r.download()
 

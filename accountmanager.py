@@ -43,7 +43,7 @@ class AccountManager(GObject.GObject):
         from appdata.helpers import request
         url = 'https://login.ubuntu.com/api/v2/accounts/%s'
         req = request(url % self.oauth.get('openid', ''),
-                      async=True, cache=0, oauth=self.oauth)
+                      asyn=True, cache=0, oauth=self.oauth)
 
         def on_downloaded(widget, content):
             import json
@@ -62,7 +62,7 @@ class AccountManager(GObject.GObject):
         if otp:
             data['otp'] = otp
         req = request('https://login.ubuntu.com/api/v2/tokens/oauth',
-                      async=True, cache=0, content_type='json', data=data)
+                      asyn=True, cache=0, content_type='json', data=data)
 
         def on_downloaded(widget, content):
             import json
