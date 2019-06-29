@@ -1,4 +1,4 @@
-appgrid (0.298-galliumos0+dev2) bismuth; urgency=low
+appgrid (0.298-galliumos1) bismuth; urgency=low
 
   * Update to upstream 0.298
   * Add GalliumOS patches
