@@ -214,12 +214,12 @@ def is_digits(text):
 
 def get_apt_pkgnames():
     path = '/usr/share/appgrid/blacklist-%s.json'
-    import platform
+    import distro
     import os
-    if os.path.exists(path % platform.linux_distribution()[2]):
-        filename = path % platform.linux_distribution()[2]
+    if os.path.exists(path % distro.linux_distribution()[2]):
+        filename = path % distro.linux_distribution()[2]
     else:
-        filename = path % 'xenial'
+        filename = path % 'focal'
 
     import json
     blacklist = set(json.loads(open(filename).read()))

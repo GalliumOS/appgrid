@@ -72,7 +72,7 @@ class WriteReview(Gtk.VBox):
             summary.set_sensitive(False)
             review.set_sensitive(False)
 
-            import platform
+            import distro
             import apt_pkg
             apt_pkg.init_config()
             import locale
@@ -91,7 +91,7 @@ class WriteReview(Gtk.VBox):
             except:
                 lang = 'en'
 
-            ds = platform.linux_distribution()[2]
+            ds = distro.linux_distribution()[2]
 
             body = {
                 'package_name': app.id,

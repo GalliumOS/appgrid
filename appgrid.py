@@ -24,16 +24,12 @@ if __name__ == '__main__':
     window = Gtk.Window()
     window.connect('destroy', Gtk.main_quit)
     window.set_position(Gtk.WindowPosition.CENTER)
-    ds = Gdk.Screen.get_default()
-    if ds.get_width() > 1440 and ds.get_height() > 900:
-        window.set_default_size(1440, 900)
-        window.set_size_request(880, 660)
-    else:
-        window.maximize()
-        window.set_default_size(880, 660)
-        window.set_size_request(880, 550)
+
+    window.set_default_size(1440, 900)
+    window.set_size_request(880, 660)
 
     window.set_title('App Grid')
+    window.set_icon_name('appgrid')
 
     provider = Gtk.CssProvider()
     provider.load_from_path('/usr/share/appgrid/appgrid.css')

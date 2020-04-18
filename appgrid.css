@@ -39,11 +39,20 @@ GtkWindow {
     background-image: none;
     background-color: alpha(white, 0.2);
     color: @white;
-    font-family: Ubuntu;
+    caret-color: white;
+    font-family: Ubuntu light;
     font-size: large;
     font-weight: 100;
     border-width: 0px;
     border-color: white;
+}
+
+.sherlock image {
+    color: white;
+}
+
+.sherlock:focus {
+    border-width: 1px;
 }
 
 #sherlockishome {

@@ -3,10 +3,10 @@
 /usr/bin/appgrid --rebuild-db
 
 rm -f /etc/apt/sources.list.d/appgrid-*.list
-debline="deb http://ppa.launchpad.net/appgrid/stable/ubuntu bionic main"
+debline="deb http://ppa.launchpad.net/appgrid/stable/ubuntu focal main"
 
 release=$(lsb_release -cs)
-if [ $release = "xenial" ] || [ $release = "bionic" ] || [ $release = "cosmic" ] || [ $release = "disco" ]; then
+if [ $release = "bionic" ] || [ $release = "focal" ]; then
     debline="deb http://ppa.launchpad.net/appgrid/stable/ubuntu "$release" main"
 fi
 

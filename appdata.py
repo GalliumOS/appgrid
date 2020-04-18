@@ -27,7 +27,11 @@ def update_state(pkgname, state):
 
 def rebuild_db():
     # ratings initialization
-    import json
+    ratings = {}
+    with open('/usr/share/appgrid/ratings.init') as f:
+        for l in f:
+            ratings[l.split()[0]] = (int(l.split()[1]), int(l.split()[2]))
+    """import json
     from appdata.helpers import request
     url = 'https://reviews.ubuntu.com/reviews/api/1.0/review-stats/any/any/'
     ratings = {}
@@ -46,7 +50,7 @@ def rebuild_db():
                 r = 2
             else:
                 r = 3
-            ratings[subjson['package_name']] = (r, h[2] - h[0])
+            ratings[subjson['package_name']] = (r, h[2] - h[0])"""
 
     # data
     from appdata.apps.aptapp import AptApp, get_apt_pkgnames, get_desktop_files
@@ -60,7 +64,7 @@ def rebuild_db():
             p.add((ratings[pkgname][1], pkgname))
         except:
             s.add(pkgname)
-    p = sorted(p, reverse=True)
+    p = sorted(p)  # , reverse=True)
     p = [a[1] for a in p]
     s = sorted(s)
     rows = []

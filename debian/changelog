@@ -1,3 +1,23 @@
+appgrid (0.310) focal; urgency=low
+
+  * add support for focal
+  * platform.linux_distribution is no longer, use distro.linux_distribution
+    instead
+  * the review server is no longer available, so disable reviews for now :/
+  * spell out icon name for the dock
+  * maintain font color of app name when window becomes unfocused
+  * text in search box is rendered in oddly faded color
+  * make caret color in search box white
+  * clear icon stopped being white
+  * draw white border of search as soon as it has focus
+  * Gdk.Screen.get_width/height deprecated, avoid use
+  * ship some cached ratings until we have a better solution, this improves
+    the selection of apps on the front page
+  * hide user menu as it has lost is use without the reviews server and avoids
+    the dependency on libgnome-keyring which in turn is removed from archive
+
+ -- pgg (appgrid) <pgg@appgrid.org>  Wed, 08 Apr 2020 09:32:51 +0200 
+
 appgrid (0.298) cosmic; urgency=low
 
   * stop using 'async' as a variable so that appgrid can run on python3.7

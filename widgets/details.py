@@ -65,7 +65,7 @@ class Details(Gtk.EventBox):
         self.lang = 'local'
         self.reviews = {'local': [], 'any': []}
         self.rpages = {'local': 0, 'any': 0}
-        GLib.timeout_add(100, self.get_reviews)
+        # GLib.timeout_add(100, self.get_reviews)
         self.langpop = False
 
 #        from accountmanager import am
@@ -509,7 +509,7 @@ class Details(Gtk.EventBox):
         Gtk.render_layout(context, cr, x, 25 - pla.height // 2, pl)
 
         # lang
-        m = '<span color="#fff" font="22" weight="light">%s</span>'
+        """m = '<span color="#fff" font="22" weight="light">%s</span>'
         pl.set_markup(m % escape("⚙"))
         pla = pl.get_pixel_extents()[1]
         Gtk.render_layout(context, cr, width - 25 - pla.width // 2,
@@ -519,10 +519,10 @@ class Details(Gtk.EventBox):
         cr.move_to(width - 50 + 0.5, 0.5)
         cr.line_to(width - 50 + 0.5, 49.5)
         cr.stroke()
-        self.clicks.append(['langpop', True, width - 50, width, 0, 50])
+        self.clicks.append(['langpop', True, width - 50, width, 0, 50])"""
 
         # write
-        if self.app.state == 'installed':
+        """if self.app.state == 'installed':
             o = self.app.origin_id
             if o.startswith('U/') or o.startswith('S/') or o == 'P':
                 m = '<span color="#fff" size="large" weight="light">%s</span>'
@@ -538,11 +538,16 @@ class Details(Gtk.EventBox):
                 Gtk.render_layout(context, cr, width - 50 - 20 - pla.width -
                                   10, 25 - pla.height // 2, pl)
                 self.clicks.append(['write', '', width - 90 - pla.width,
-                                    width - 50 - 20, 10, 40])
+                                    width - 50 - 20, 10, 40])"""
 
         pl1 = widget.create_pango_layout('')
         pl1.set_width((400 - 50 - 10) * Pango.SCALE)
         cr.set_dash([2, 2])
+
+        # currently no reviews
+        m = '<span font="12.5" weight="light" color="#444">%s</span>'
+        pl1.set_markup(m % escape(_("We're not able to show any reviews at the moment, sorry!")), -1)
+        Gtk.render_layout(context, cr, x, y, pl1)
 
         i = self.rcols[self.rindex]
         while y <= height and i < len(self.reviews[self.lang]):
@@ -627,7 +632,8 @@ class Details(Gtk.EventBox):
 
         cr.set_dash([1, 0])
         if y <= height:
-            self.get_reviews()
+            pass
+            # self.get_reviews()
         else:
             self.rcols = self.rcols[:self.rindex + 1] + [i - 1]
 

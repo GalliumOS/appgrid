@@ -125,7 +125,7 @@ class Home(Gtk.EventBox):
                 on_signed_out()
             elif st.startswith('signedin:'):
                 on_signed_in(st.partition('signedin:')[2])
-        GLib.idle_add(update_account)
+        # GLib.idle_add(update_account)
 
         self.data = []
         self.dpm = {0: 0}
@@ -376,8 +376,8 @@ class Home(Gtk.EventBox):
                 cr.fill()
 
             # text
-            m = "<span weight='light' size='large'>%s</span>" % escape(row[1])
-            pl.set_markup(m, -1)
+            m = "<span weight='light' size='large' color='#333'>%s</span>"
+            pl.set_markup(m % escape(row[1]), -1)
             Gtk.render_layout(context, cr, x + 110, y + 2, pl)
             theight = pl.get_pixel_extents()[1].height
             # summary text

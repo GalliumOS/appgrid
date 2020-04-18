@@ -11,7 +11,7 @@ if len(sys.argv) >= 2 and sys.argv[1] == 'clean':
 
     u = 'http://archive.ubuntu.com/ubuntu/dists/%s/%s/binary-i386/Packages.gz'
 
-    for release in ['xenial', 'bionic', 'cosmic', 'disco']:
+    for release in ['bionic', 'focal']:
         blacklist = []
         for comp in ['main', 'restricted', 'universe', 'multiverse']:
             data = gzip.GzipFile(fileobj=urllib.request.urlopen(
@@ -36,7 +36,8 @@ setup(name='appgrid',
       data_files=[
           ('/lib/systemd/system', ['debian/appgrid.service']),
           ('/usr/share/appgrid', ['LEGAL', 'accountmanager.py', 'appdata.py',
-                                  'appgrid.css', 'appgrid.py']),
+                                  'appgrid.css', 'appgrid.py',
+                                  'ratings.init']),
           ('/usr/share/appgrid', [g for g in os.listdir() if
                                   g.startswith('blacklist-') and
                                   g.endswith('.json')]),
